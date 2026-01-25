@@ -1,4 +1,4 @@
-name: Deploy files to dev-test
+name: Deploy files to dev
 on:
   push:
     branches: ["main"]
@@ -19,5 +19,5 @@ jobs:
           echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -p $DEPLOY_PORT $DEPLOY_HOST >> ~/.ssh/known_hosts
-          rsync -avz --delete --exclude=.git --exclude=.github -e "ssh -i ~/.ssh/deploy_key -p $DEPLOY_PORT" ./ $DEPLOY_USER@$DEPLOY_HOST:~/dev-test
+          rsync -avz --delete --exclude=.git --exclude=.github -e "ssh -i ~/.ssh/deploy_key -p $DEPLOY_PORT" ./ $DEPLOY_USER@$DEPLOY_HOST:~/dev
           rm ~/.ssh/deploy_key
