@@ -1,0 +1,86 @@
+/* ==================================================
+   Ingexpert – Unique Styles
+   Applied only on Ingexpert pages
+================================================== */
+
+/* Scope EVERYTHING to Ingexpert pages only */
+body.theme-ingexpert {
+  --ingexpert-primary: #87B4C3;
+  --ingexpert-accent: #FF96A0;
+}
+
+/* =========================
+   Page titles
+========================= */
+body.theme-ingexpert .page-title {
+  color: var(--ingexpert-primary);
+  border-bottom: 3px solid rgba(135, 180, 195, 0.35);
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   Breadcrumb
+========================= */
+body.theme-ingexpert .breadcrumb {
+  font-size: 0.95rem;
+  background: rgba(135, 180, 195, 0.08);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+body.theme-ingexpert .breadcrumb a {
+  color: var(--ingexpert-primary);
+  font-weight: 700;
+}
+
+body.theme-ingexpert .breadcrumb .active {
+  font-weight: 900;
+}
+
+/* =========================
+   CTA Card
+========================= */
+body.theme-ingexpert .cta-card {
+  border-color: rgba(135, 180, 195, 0.45);
+  background: linear-gradient(
+    135deg,
+    rgba(135, 180, 195, 0.12),
+    rgba(135, 180, 195, 0.04)
+  );
+}
+
+body.theme-ingexpert .cta-card span {
+  font-weight: 900;
+  color: var(--ingexpert-primary);
+}
+
+/* =========================
+   Content box
+========================= */
+body.theme-ingexpert .content-box {
+  border-left: 5px solid var(--ingexpert-primary);
+}
+
+/* =========================
+   Images
+========================= */
+body.theme-ingexpert .hero-image {
+  border: 1px solid rgba(135, 180, 195, 0.35);
+}
+
+/* =========================
+   Links
+========================= */
+body.theme-ingexpert a:hover {
+  color: var(--ingexpert-accent);
+}
+
+/* =========================
+   Responsive tweaks
+========================= */
+@media (max-width: 768px) {
+  body.theme-ingexpert .breadcrumb {
+    font-size: 0.9rem;
+  }
+}
