@@ -374,6 +374,83 @@ a:hover {
 }
 
 /* =========================
+   Clients slider (marquee)
+========================= */
+.clients-slider{
+  position: relative;
+  overflow: hidden;
+  padding: 18px 0;
+}
+
+.clients-slider::before,
+.clients-slider::after{
+  content:"";
+  position:absolute;
+  top:0; bottom:0;
+  width: 70px;
+  pointer-events:none;
+  z-index:2;
+}
+
+.clients-slider::before{
+  left:0;
+  background: linear-gradient(to right, var(--bg-light-gray), rgba(249,249,249,0));
+}
+.clients-slider::after{
+  right:0;
+  background: linear-gradient(to left, var(--bg-light-gray), rgba(249,249,249,0));
+}
+
+.clients-track{
+  display:flex;
+  align-items:center;
+  gap: 48px;
+  width: max-content;
+  animation: clients-scroll 22s linear infinite;
+  will-change: transform;
+}
+
+.clients-slider:hover .clients-track{
+  animation-play-state: paused;
+}
+
+.client-logo{
+  flex: 0 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 70px;          /* slider height */
+  padding: 6px 10px;
+}
+
+.client-logo img{
+  height: 70px;
+  width: auto;
+  max-width: 260px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.9;
+  transition: filter .2s ease, opacity .2s ease, transform .2s ease;
+}
+
+.client-logo img:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+@keyframes clients-scroll{
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); } /* because list is duplicated */
+}
+
+@media (max-width: 768px){
+  .clients-track{ gap: 28px; animation-duration: 18s; }
+  .client-logo, .client-logo img{ height: 54px; }
+}
+
+
+/* =========================
    Services list
 ========================= */
 .services-list {

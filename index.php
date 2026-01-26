@@ -68,11 +68,23 @@
   <section class="clients-section section">
     <div class="container">
       <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--text-dark);">Ils nous font confiance</h2>
-      <div class="clients-grid">
-        <img src="/images/images-index-maintenance/clients-references-maintenance-1.jpg" alt="Clients 1">
-        <img src="/images/images-index-maintenance/clients-references-maintenance-2.jpg" alt="Clients 2">
-        <img src="/images/images-index-maintenance/clients-references-maintenance-3.jpg" alt="Clients 3">
+      <div class="clients-slider" aria-label="Logos clients">
+      <div class="clients-track">
+        <!-- Logos (set 1) -->
+        <div class="client-logo"><img src="/images/logos/884263.png" alt="884263"></div>
+        <div class="client-logo"><img src="/images/logos/Benvic-logo-landscape.png" alt="Benvic-logo-landscape"></div>
+        <div class="client-logo"><img src="/images/logos/CNIM.jpg" alt="CNIM"></div>
+        <div class="client-logo"><img src="/images/logos/logo-cdm-1.jpg" alt="logo-cdm-1"></div>
+        <div class="client-logo"><img src="/images/logos/pwc.png" alt="pwc"></div>
+
+        <!-- Logos (set 2) DUPLICATE the same list for smooth loop -->
+        <div class="client-logo"><img src="/images/logos/sanofi-logo.png" alt="sanofi-logo"></div>
+        <div class="client-logo"><img src="/images/logos/stryker.png" alt="stryker"></div>
+        <div class="client-logo"><img src="/images/logos/Vetoquinol.jpg" alt="Vetoquinol"></div>
+
       </div>
+    </div>
+
       <div class="text-center" style="margin-top: var(--spacing-md);">
         <a href="/ingexpert/maintenance-activite-references.php" class="btn-text">Voir toutes nos références &rarr;</a>
       </div>
