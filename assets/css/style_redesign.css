@@ -449,6 +449,151 @@ a:hover {
   .client-logo, .client-logo img{ height: 54px; }
 }
 
+/* =========================
+   Quality / Standards
+========================= */
+.quality-section{
+  background: var(--bg-white);
+}
+
+.quality-header{
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.quality-header h2{
+  color: var(--primary-blue);
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.quality-lead{
+  max-width: 860px;
+  margin: 0 auto;
+  color: var(--text-light);
+  font-size: 1.05rem;
+}
+
+.quality-card{
+  text-align: left;
+}
+
+.quality-card h3{
+  margin-top: 0;
+  color: var(--text-dark);
+}
+
+.badge-grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.badge{
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(90, 105, 107, 0.18); /* primary-blue with opacity */
+  background: rgba(135, 180, 195, 0.12);      /* accent-pink with opacity */
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+.badge:hover{
+  background: rgba(135, 180, 195, 0.18);
+}
+
+.quality-actions{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.quality-note{
+  margin-top: 14px;
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+/* =========================
+   Mission standardisée
+========================= */
+.mission-section{
+  background: var(--bg-light-gray);
+}
+
+.mission-lead{
+  max-width: 900px;
+  margin: 0 auto;
+  color: var(--text-light);
+  font-size: 1.05rem;
+}
+
+.mission-card{
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.mission-step{
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  background: rgba(135, 180, 195, 0.18);
+  border: 1px solid rgba(90, 105, 107, 0.18);
+  margin-bottom: 12px;
+}
+
+.mission-card h3{
+  margin: 0 0 8px 0;
+  color: var(--text-dark);
+}
+
+/* =========================
+   Dialogue (Forum & Blog)
+========================= */
+.dialogue-section{
+  background: var(--bg-white);
+}
+
+.dialogue-lead{
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--text-light);
+  font-size: 1.05rem;
+}
+
+.dialogue-card{
+  text-decoration: none;
+  display: block;
+}
+
+.dialogue-icon{
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  background: rgba(147, 194, 65, 0.16); /* accent-green with opacity */
+  border: 1px solid rgba(147, 194, 65, 0.22);
+  margin-bottom: 12px;
+}
+
+.dialogue-card:hover .dialogue-icon{
+  transform: translateY(-1px);
+}
+
 
 /* =========================
    Services list

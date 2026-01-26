@@ -64,69 +64,10 @@
     </div>
   </section>
 
-  <!-- Clients Section -->
-  <section class="clients-section section">
-    <div class="container">
-      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--text-dark);">Ils nous font confiance</h2>
-      <div class="clients-slider" aria-label="Logos clients">
-      <div class="clients-track">
-        <!-- Logos (set 1) -->
-        <div class="client-logo"><img src="/images/logos/884263.png" alt="884263"></div>
-        <div class="client-logo"><img src="/images/logos/Benvic-logo-landscape.png" alt="Benvic-logo-landscape"></div>
-        <div class="client-logo"><img src="/images/logos/CNIM.jpg" alt="CNIM"></div>
-        <div class="client-logo"><img src="/images/logos/logo-cdm-1.jpg" alt="logo-cdm-1"></div>
-        <div class="client-logo"><img src="/images/logos/pwc.png" alt="pwc"></div>
-
-        <!-- Logos (set 2) DUPLICATE the same list for smooth loop -->
-        <div class="client-logo"><img src="/images/logos/sanofi-logo.png" alt="sanofi-logo"></div>
-        <div class="client-logo"><img src="/images/logos/stryker.png" alt="stryker"></div>
-        <div class="client-logo"><img src="/images/logos/Vetoquinol.jpg" alt="Vetoquinol"></div>
-
-      </div>
-    </div>
-
-      <div class="text-center" style="margin-top: var(--spacing-md);">
-        <a href="/ingexpert/maintenance-activite-references.php" class="btn-text">Voir toutes nos références &rarr;</a>
-      </div>
-    </div>
-  </section>
-
   <!-- Activities Grid -->
   <section class="section">
     <div class="container">
       <div class="grid">
-        <!-- Column 1: Sectors -->
-        <div class="card-section">
-          <h2 class="text-center" style="color: #5A696B; margin-bottom: var(--spacing-md);">
-            Secteurs d'activité</h2>
-
-          <div class="grid grid-2">
-            <a href="https://maintenance.industrielle.ingexpert.com" class="card">
-              <h3>Industrie</h3>
-              <p>Conseil management maintenance Industrie</p>
-            </a>
-            <a href="/ingexpert/maintenance-missions-SAV.php" class="card">
-              <h3>SAV</h3>
-              <p>Conseil management maintenance SAV</p>
-            </a>
-            <a href="https://maintenance.energie.ingexpert.com" class="card">
-              <h3>Énergie</h3>
-              <p>Conseil management maintenance énergie</p>
-            </a>
-            <a href="/ingexpert/maintenance-mission-reseaux-gaz-electricite-fluide.php" class="card">
-              <h3>Réseaux</h3>
-              <p>Fluides - Gaz - Electricité</p>
-            </a>
-            <a href="/ingexpert/maintenance-missions-transport-travaux-publics-transport-ouvrages.php" class="card">
-              <h3>Infrastructures</h3>
-              <p>Conseil management maintenance infrastructure</p>
-            </a>
-            <a href="/ingexpert/maintenance-missions-biomedicale-hopitaux.php" class="card">
-              <h3>Hôpitaux</h3>
-              <p>Biomédical - Serv. Technique</p>
-            </a>
-          </div>
-        </div>
 
         <!-- Column 2: Offerings/Missions -->
         <div class="card-section">
@@ -166,9 +107,165 @@
             </li>
           </ul>
         </div>
+      
+        <!-- Column 1: Sectors -->
+        <div class="card-section">
+          <h2 class="text-center" style="color: #5A696B; margin-bottom: var(--spacing-md);">
+            Secteurs d'activité</h2>
+
+          <div class="grid grid-2">
+            <a href="https://maintenance.industrielle.ingexpert.com" class="card">
+              <h3>Industrie</h3>
+              <p>Conseil management maintenance Industrie</p>
+            </a>
+            <a href="/ingexpert/maintenance-missions-SAV.php" class="card">
+              <h3>SAV</h3>
+              <p>Conseil management maintenance SAV</p>
+            </a>
+            <a href="https://maintenance.energie.ingexpert.com" class="card">
+              <h3>Énergie</h3>
+              <p>Conseil management maintenance énergie</p>
+            </a>
+            <a href="/ingexpert/maintenance-mission-reseaux-gaz-electricite-fluide.php" class="card">
+              <h3>Réseaux</h3>
+              <p>Fluides - Gaz - Electricité</p>
+            </a>
+            <a href="/ingexpert/maintenance-missions-transport-travaux-publics-transport-ouvrages.php" class="card">
+              <h3>Infrastructures</h3>
+              <p>Conseil management maintenance infrastructure</p>
+            </a>
+            <a href="/ingexpert/maintenance-missions-biomedicale-hopitaux.php" class="card">
+              <h3>Hôpitaux</h3>
+              <p>Biomédical - Serv. Technique</p>
+            </a>
+          </div>
+        </div>
+
+        
       </div>
     </div>
   </section>
+
+  <!-- Clients Section -->
+  <section class="clients-section section">
+    <div class="container">
+      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--text-dark);">Ils nous font confiance</h2>
+      <div class="clients-slider" aria-label="Logos clients">
+      <div class="clients-track">
+        <!-- Logos (set 1) -->
+        <div class="client-logo"><img src="/images/logos/884263.png" alt="884263"></div>
+        <div class="client-logo"><img src="/images/logos/Benvic-logo-landscape.png" alt="Benvic-logo-landscape"></div>
+        <div class="client-logo"><img src="/images/logos/CNIM.jpg" alt="CNIM"></div>
+        <div class="client-logo"><img src="/images/logos/logo-cdm-1.jpg" alt="logo-cdm-1"></div>
+        <div class="client-logo"><img src="/images/logos/pwc.png" alt="pwc"></div>
+        <div class="client-logo"><img src="/images/logos/vinci.png" alt="vinci"></div>
+        <div class="client-logo"><img src="/images/logos/carrier.png" alt="carrier"></div>
+        <div class="client-logo"><img src="/images/logos/lafarge.png" alt="lafarge"></div>
+        <div class="client-logo"><img src="/images/logos/eiffage.png" alt="eiffage"></div>
+        <div class="client-logo"><img src="/images/logos/areva.png" alt="areva"></div>
+        <div class="client-logo"><img src="/images/logos/sanofi-logo.png" alt="sanofi-logo"></div>
+        <div class="client-logo"><img src="/images/logos/stryker.png" alt="stryker"></div>
+        <div class="client-logo"><img src="/images/logos/Vetoquinol.jpg" alt="Vetoquinol"></div>
+    
+
+      </div>
+    </div>
+
+      <div class="text-center" style="margin-top: var(--spacing-md);">
+        <a href="/ingexpert/maintenance-activite-references.php" class="btn-text">Voir toutes nos références &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission standardisée -->
+<section class="section mission-section">
+  <div class="container">
+    <div class="mission-header text-center">
+      <h2 style="color: var(--primary-blue); margin-bottom: 10px;">Notre mission standardisée</h2>
+      <p class="mission-lead">
+        Une approche claire, structurée et reproductible pour améliorer votre management de la maintenance.
+      </p>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="card mission-card">
+        <div class="mission-step">1</div>
+        <h3>Diagnostiquer</h3>
+        <p class="text-light">État des lieux, analyse des pratiques, points forts / points à risque.</p>
+      </div>
+
+      <div class="card mission-card">
+        <div class="mission-step">2</div>
+        <h3>Structurer</h3>
+        <p class="text-light">Processus, rôles, indicateurs, plan d’actions et priorisation terrain.</p>
+      </div>
+
+      <div class="card mission-card">
+        <div class="mission-step">3</div>
+        <h3>Déployer & mesurer</h3>
+        <p class="text-light">Mise en œuvre, accompagnement, formation, suivi des gains et amélioration continue.</p>
+      </div>
+    </div>
+
+    <div class="mission-cta text-center" style="margin-top: var(--spacing-lg);">
+      <a href="/contact.php" class="button">Parler de votre besoin</a>
+      <a href="/ingexpert/maintenance-activite-references.php" class="btn-text" style="margin-left: 14px;">
+        Voir nos références &rarr;
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Quality / Standards -->
+  <section class="section quality-section">
+    <div class="container">
+      <div class="quality-header">
+        <h2>Management par la Qualité</h2>
+        <p class="quality-lead">
+          Ingexpert est orienté référentiels depuis plus de 25 ans (commission de normalisation X60G).
+        </p>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card quality-card">
+          <h3>Accompagnement certifications</h3>
+          <p class="text-light">
+            Ingexpert vous aide à définir, acquérir une certification ou certifier votre management de la maintenance,
+            et à maintenir votre système de management.
+          </p>
+
+          <div class="quality-actions">
+            <a class="button" href="/contact.php">Demander un échange</a>
+            <a class="btn-text" href="/ingexpert/maintenance-activite-references.php">Voir nos références &rarr;</a>
+          </div>
+        </div>
+
+        <div class="card quality-card">
+          <h3>Référentiels & normes couvertes</h3>
+
+          <div class="badge-grid" aria-label="Normes et référentiels">
+            <span class="badge">Série X60G</span>
+            <span class="badge">EN 13269</span>
+            <span class="badge">ISO 55000</span>
+            <span class="badge">ISO 55001</span>
+            <span class="badge">ISO 55010</span>
+            <span class="badge">ISO 55012</span>
+            <span class="badge">ISO 55013</span>
+            <span class="badge">ISO/TS 16949 (Auto)</span>
+            <span class="badge">EN9100 / AS9100 (Aéro)</span>
+            <span class="badge">TL9000 (Télécom)</span>
+            <span class="badge">ISO 19443 (Nucléaire)</span>
+          </div>
+
+          <p class="quality-note">
+            Focus gestion d’actifs (ISO 55000) : actifs, implication/compétences, données.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Trainings Section -->
   <section class="section" style="background-color: var(--bg-light-gray);">
@@ -217,6 +314,33 @@
       </div>
     </div>
   </section>
+
+  <!-- Dialogue: Forum & Blog -->
+<section class="section dialogue-section">
+  <div class="container">
+    <div class="text-center" style="margin-bottom: var(--spacing-lg);">
+      <h2 style="color: var(--primary-blue);">Dialogue</h2>
+      <p class="dialogue-lead">Échanger, apprendre, partager des retours terrain.</p>
+    </div>
+
+    <div class="grid grid-2">
+      <a href="/forum/" class="card dialogue-card">
+        <div class="dialogue-icon" aria-hidden="true">💬</div>
+        <h3>Forum</h3>
+        <p class="text-light">Posez vos questions, partagez vos cas concrets, discutez méthodes & outils.</p>
+        <span class="link-more">Accéder au forum &rarr;</span>
+      </a>
+
+      <a href="/blog/" class="card dialogue-card">
+        <div class="dialogue-icon" aria-hidden="true">📝</div>
+        <h3>Blog</h3>
+        <p class="text-light">Articles, bonnes pratiques, modèles, indicateurs, retours d’expérience.</p>
+        <span class="link-more">Lire le blog &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 
   <!-- Resources & Publications -->
   <section class="section">
