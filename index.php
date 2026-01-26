@@ -108,6 +108,9 @@
           </ul>
         </div>
       
+        <h2 class="text-center" style="color: var(--accent-pink); margin-bottom: var(--spacing-md);">
+            Activité de nos clients</h2>
+
         <!-- Column 1: Sectors -->
         <div class="grid grid-2 sectors-grid">
           <a href="https://maintenance.industrielle.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-industries.jpg">
