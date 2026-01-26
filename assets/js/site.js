@@ -135,3 +135,11 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 });
 
+
+// ===== Sector cards background (data-bg -> CSS var)
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".sector-card[data-bg]").forEach((card) => {
+    const url = card.getAttribute("data-bg");
+    if (url) card.style.setProperty("--bg-image", `url("${url}")`);
+  });
+});

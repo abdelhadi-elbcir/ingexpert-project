@@ -109,36 +109,48 @@
         </div>
       
         <!-- Column 1: Sectors -->
-        <div class="card-section">
-          <h2 class="text-center" style="color: #5A696B; margin-bottom: var(--spacing-md);">
-            Secteurs d'activité</h2>
+        <div class="grid grid-2 sectors-grid">
+          <a href="https://maintenance.industrielle.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-industries.jpg">
+            <h3>Industrie</h3>
+            <p>Conseil management maintenance Industrie</p>
+          </a>
 
-          <div class="grid grid-2">
-            <a href="https://maintenance.industrielle.ingexpert.com" class="card">
-              <h3>Industrie</h3>
-              <p>Conseil management maintenance Industrie</p>
-            </a>
-            <a href="/ingexpert/maintenance-missions-SAV.php" class="card">
-              <h3>SAV</h3>
-              <p>Conseil management maintenance SAV</p>
-            </a>
-            <a href="https://maintenance.energie.ingexpert.com" class="card">
-              <h3>Énergie</h3>
-              <p>Conseil management maintenance énergie</p>
-            </a>
-            <a href="/ingexpert/maintenance-mission-reseaux-gaz-electricite-fluide.php" class="card">
-              <h3>Réseaux</h3>
-              <p>Fluides - Gaz - Electricité</p>
-            </a>
-            <a href="/ingexpert/maintenance-missions-transport-travaux-publics-transport-ouvrages.php" class="card">
-              <h3>Infrastructures</h3>
-              <p>Conseil management maintenance infrastructure</p>
-            </a>
-            <a href="/ingexpert/maintenance-missions-biomedicale-hopitaux.php" class="card">
-              <h3>Hôpitaux</h3>
-              <p>Biomédical - Serv. Technique</p>
-            </a>
-          </div>
+          <a href="/ingexpert/maintenance-missions-SAV.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-SAV.jpg">
+            <h3>SAV</h3>
+            <p>Conseil management maintenance SAV</p>
+          </a>
+
+          <a href="https://maintenance.energie.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-energie.jpg">
+            <h3>Énergie</h3>
+            <p>Conseil management maintenance énergie</p>
+          </a>
+
+          <a href="/ingexpert/maintenance-mission-reseaux-gaz-electricite-fluide.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-reseaux.jpg">
+            <h3>Réseaux</h3>
+            <p>Fluides - Gaz - Electricité</p>
+          </a>
+
+          <a href="/ingexpert/maintenance-missions-transport-travaux-publics-transport-ouvrages.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-infrastructures.jpg">
+            <h3>Infrastructures</h3>
+            <p>Conseil management maintenance infrastructure</p>
+          </a>
+
+          <a href="/ingexpert/maintenance-missions-biomedicale-hopitaux.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-hopitaux.jpg">
+            <h3>Hôpitaux</h3>
+            <p>Biomédical - Serv. Technique</p>
+          </a>
+
+          <!-- NEW: Tertiaire -->
+          <a href="/ingexpert/maintenance-missions-tertiaire.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-tertiaire.jpg">
+            <h3>Tertiaire</h3>
+            <p>Services, bâtiments, sites tertiaires</p>
+          </a>
+
+          <!-- NEW: Transport -->
+          <a href="/ingexpert/maintenance-missions-transport.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-transports.jpg">
+            <h3>Transport</h3>
+            <p>Maintenance transport, logistique, mobilité</p>
+          </a>
         </div>
 
         
@@ -237,7 +249,7 @@
 
           <div class="quality-actions">
             <a class="button" href="/contact.php">Demander un échange</a>
-            <a class="btn-text" href="/ingexpert/maintenance-activite-references.php">Voir nos références &rarr;</a>
+            <a class="btn-text" href="/ingexpert/maintenance-activite-references.php">Nos références &rarr;</a>
           </div>
         </div>
 
