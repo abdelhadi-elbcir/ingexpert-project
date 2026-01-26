@@ -7,10 +7,10 @@
 
 :root {
   /* Color Palette */
-  --primary-blue: #87B4C3;
+  --primary-blue: #5A696B;
   --accent-yellow: #EEC942;
   --accent-green: #93C241;
-  --accent-pink: #FF96A0;
+  --accent-pink: #87B4C3;
 
   --text-dark: #0b1220;
   --text-light: #222;
@@ -308,7 +308,7 @@ a:hover {
 }
 
 .hero h1 span.highlight {
-  color: var(--accent-yellow);
+  color: var(--accent-pink);
 }
 
 .hero-subtitle {

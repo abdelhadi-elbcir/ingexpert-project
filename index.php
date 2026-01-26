@@ -82,10 +82,10 @@
   <!-- Activities Grid -->
   <section class="section">
     <div class="container">
-      <div class="grid grid-2">
+      <div class="grid">
         <!-- Column 1: Sectors -->
         <div class="card-section">
-          <h2 class="text-center" style="color: var(--primary-blue); margin-bottom: var(--spacing-md);">
+          <h2 class="text-center" style="color: #5A696B; margin-bottom: var(--spacing-md);">
             Secteurs d'activité</h2>
 
           <div class="grid grid-2">
