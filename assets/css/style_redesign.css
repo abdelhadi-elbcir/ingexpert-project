@@ -451,6 +451,83 @@ a:hover {
 
 
 /* =========================
+   Notre Accompagnement - UL Accordion
+========================= */
+.offer-accordion{
+  display: grid;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.offer-item{
+  background: var(--bg-white);
+  border: 1px solid #eee;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 18px rgba(0,0,0,.06);
+  overflow: hidden;
+}
+
+.offer-summary{
+  cursor: pointer;
+  padding: 16px 18px;
+  font-weight: 900;
+  color: var(--text-dark);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-summary::-webkit-details-marker{
+  display: none;
+}
+
+.offer-summary::after{
+  content: "▾";
+  font-size: 1.2rem;
+  color: var(--primary-blue);
+  transition: transform .2s ease;
+}
+
+.offer-item[open] .offer-summary::after{
+  transform: rotate(180deg);
+}
+
+.offer-list{
+  list-style: none;
+  padding: 0 18px 16px 18px;
+  margin: 0;
+}
+
+.offer-list li{
+  position: relative;
+  padding-left: 16px;
+  margin: 8px 0;
+  font-weight: 600;
+  color: var(--text-light);
+}
+
+.offer-list li::before{
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-pink);
+  font-weight: 900;
+}
+
+.offer-list a{
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+.offer-list a:hover{
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+
+
+/* =========================
    Sectors cards with background images
 ========================= */
 .sectors-grid .sector-card{
