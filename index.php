@@ -58,7 +58,7 @@
       </div>
 
       <div style="margin-top: 2rem;">
-        <b>23<sup>ème</sup> année</b>
+        <b>A votre service depuis 23 ans</b>
       </div>
     </div>
   </section>
