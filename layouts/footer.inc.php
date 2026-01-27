@@ -5,8 +5,7 @@
         <img src="/images/INGEXPERT.png" alt="Ingexpert" class="footer-logo">
       </a>
       <p class="footer-text">
-        Conseil, formation et expertise pour le management de la maintenance (industrie, SAV, énergie, tertiaire,
-        biomédical...).
+        Conseil, formation, expertise pour le management de la Direction Technique dont la maintenance. Accompagnement de tous les secteurs d’activité
       </p>
     </div>
 
