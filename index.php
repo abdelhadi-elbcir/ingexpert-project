@@ -326,9 +326,7 @@ plu<?php
             <span class="badge">ISO 19443 (Nucléaire)</span>
           </div>
 
-          <p class="quality-note">
-            Focus gestion d’actifs (ISO 55000) : actifs, implication/compétences, données.
-          </p>
+
         </div>
       </div>
     </div>
