@@ -57,6 +57,11 @@ plu<?php
         <p>Audit, ingénierie, fiabilisation, stock, formation, indicateurs, GMAO...</p>
       </div>
 
+           <div class="hero-subtitle">
+        <p>Issue du terrain et du management, nous couvrons toute la hiérarchie de l'entreprise. Nous sommes aussi compétent en technique qu'en management. </p>
+        <p></p>
+      </div>
+
       <div style="margin-top: 2rem;">
         <b>A votre service depuis 23 ans</b>
       </div>
