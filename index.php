@@ -54,7 +54,7 @@ plu<?php
 
       <div class="hero-subtitle">
         <p>Accompagnement de tous les secteurs d’activité</p>
-        <p>Audit, diagnostic, fiabilisation, stock, formation, indicateurs, GMAO...</p>
+        <p>Audit, ingénierie, fiabilisation, stock, formation, indicateurs, GMAO...</p>
       </div>
 
       <div style="margin-top: 2rem;">
@@ -312,7 +312,7 @@ plu<?php
         </div>
 
         <div class="card quality-card">
-          <h3>Exemple de Référentiels & normes couvertes</h3>
+          <h3>Exemple de référentiels & normes couvertes</h3>
 
           <div class="badge-grid" aria-label="Normes et référentiels">
             <span class="badge">Série X60G</span>
@@ -336,7 +336,7 @@ plu<?php
   <!-- Trainings Section -->
   <section class="section" style="background-color: var(--bg-light-gray);">
     <div class="container">
-      <h2 class="text-center" style="margin-bottom: var(--spacing-lg);">Nos Formations</h2>
+      <h2 class="text-center" style="margin-bottom: var(--spacing-lg);">Nos formations inter (</h2>
 
       <div class="grid grid-2">
         <div class="card">
@@ -373,7 +373,8 @@ plu<?php
       </div>
 
       <div class="text-center" style="margin-top: var(--spacing-lg);">
-        <p style="color: var(--text-dark); margin-bottom: 1rem;">• Formations dans un cadre naturel agréable du Sud Lubéron • Repas bio offert</p>
+        <p style="color: var(--text-dark); margin-bottom: 1rem;">• Formations dans un cadre naturel agréable du Sud Lubéron </p>
+         <b>Nous dispensons également des formation intra et à distance, avec ou sans cas pratique étalés dans le temps</b>
         <a href="/ingexpert/php-missions-methodologie-maintenance-formation.php" class="button">
           Voir toutes les formations
         </a>
