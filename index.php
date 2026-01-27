@@ -341,7 +341,7 @@ plu<?php
   <!-- Trainings Section -->
   <section class="section" style="background-color: var(--bg-light-gray);">
     <div class="container">
-      <h2 class="text-center" style="margin-bottom: var(--spacing-lg);">Nos formations inter (</h2>
+      <h2 class="text-center" style="margin-bottom: var(--spacing-lg);">Nos formations inter</h2>
 
       <div class="grid grid-2">
         <div class="card">
