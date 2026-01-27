@@ -1,4 +1,4 @@
-plu<?php
+<?php
 /* =========================
    index.php (NEW)
    - Uses separated header/footer include files
