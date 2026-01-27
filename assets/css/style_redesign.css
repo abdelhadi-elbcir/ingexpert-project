@@ -322,7 +322,6 @@ a:hover {
    Cards
 ========================= */
 .card-section {
-  border-top: 1px dotted rgba(135, 180, 195, 0.9);
   padding-top: var(--spacing-md);
 }
 
@@ -461,7 +460,7 @@ a:hover {
 
 .offer-item{
   background: var(--bg-white);
-  border: 1px solid #eee;
+  border: 1px solid var(--text-dark);
   border-radius: var(--radius);
   box-shadow: 0 8px 18px rgba(0,0,0,.06);
   overflow: hidden;
@@ -483,9 +482,9 @@ a:hover {
 }
 
 .offer-summary::after{
-  content: "▾";
-  font-size: 1.2rem;
-  color: var(--primary-blue);
+  content: "▴";
+  font-size: 1.5rem;
+  color: var(--primary-dark);
   transition: transform .2s ease;
 }
 
@@ -517,7 +516,7 @@ a:hover {
 }
 
 .offer-list a{
-  color: var(--text-light);
+  color: var(--primary-blue);
   text-decoration: none;
 }
 
@@ -551,7 +550,7 @@ a:hover {
 .sectors-grid .sector-card p{
   position: relative;
   z-index: 2;
-  color: #fff;
+  color: var(--accent-green);
 }
 
 .sectors-grid .sector-card h3{

@@ -70,20 +70,20 @@ plu<?php
 
         <!-- Column 2: Offerings/Missions -->
         <div class="card-section">
-          <h2 class="text-center" style="color: var(--accent-pink); margin-bottom: var(--spacing-md);">
-            Notre Accompagnement</h2>
+          <!-- <h2 class="text-center" style="color: var(--accent-pink); margin-bottom: var(--spacing-md);">
+            Notre Accompagnement</h2> -->
 
           <!-- <img src="/images/maintenance 4.0.jpg" alt="Maintenance 4.0"
                style="margin: 0 auto; margin-bottom: 20px; max-width: 520px;"> -->
             <div class="offer-accordion">
 
               <!-- 1 -->
-              <details class="offer-item" open>
+              <details class="offer-item">
                 <summary class="offer-summary">Diagnostic, Amélioration continue</summary>
                 <ul class="offer-list">
-                  <li><a href="/ingexpert/maintenance-coffret-audit-management.php">Audit, revue, état des lieux</a></li>
-                  <li><a href="/ingexpert/php-missions-methodologie-maintenance-bonne-pratique-amelioration.php">Plans de progrès, d’actions / schémas directeurs</a></li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__Deming-PDCA.php">Démarche PDCA</a></li>
+                  <li><a href="/ingexpert/maintenance-coffret-audit-management.php">Audit, revue, état des lieux &rarr;</a></li>
+                  <li><a href="/ingexpert/php-missions-methodologie-maintenance-bonne-pratique-amelioration.php">Plans de progrès, d’actions / schémas directeurs &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__Deming-PDCA.php">Démarche PDCA &rarr;</a></li>
                 </ul>
               </details>
 
@@ -91,11 +91,11 @@ plu<?php
               <details class="offer-item">
                 <summary class="offer-summary">Définition, (Ré)organisation maintenance</summary>
                 <ul class="offer-list">
-                  <li><a href="/ingexpert/php-missions-methodologie-maintenance-politique-organisation-strategie-objectif.php">Définition politique, stratégie et objectifs</a></li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__processus.php">Définition organisation du service / processus</a></li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__fonction.php">Définition fiches de fonction et savoir faire</a></li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__indicateur.php">Indicateurs / tableaux de bord</a></li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__AMDEC-intro.php">Démarches, méthodes (TPM, AMDEC, 5S, ...)</a></li>
+                  <li><a href="/ingexpert/php-missions-methodologie-maintenance-politique-organisation-strategie-objectif.php">Définition politique, stratégie et objectifs &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__processus.php">Définition organisation du service / processus &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__fonction.php">Définition fiches de fonction et savoir faire &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__indicateur.php">Indicateurs / tableaux de bord &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__AMDEC-intro.php">Démarches, méthodes (TPM, AMDEC, 5S, ...) &rarr;</a></li>
                   <li>Plan et manuel Qualité</li>
                 </ul>
               </details>
@@ -104,18 +104,18 @@ plu<?php
               <details class="offer-item">
                 <summary class="offer-summary">Ingénierie maintenance</summary>
                 <ul class="offer-list">
-                  <li><a href="/ingexpert/maintenance-coffret-fiabilisation.php">Disponibilité (Fiabilisation, maintenabilité, MTTR)</a></li>
-                  <li><a href="/ingexpert/maintenance-pack-stock-magasin.php">Optimisation de la gestion de stock / mutualisation</a></li>
+                  <li><a href="/ingexpert/maintenance-coffret-fiabilisation.php">Disponibilité (Fiabilisation, maintenabilité, MTTR) &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-pack-stock-magasin.php">Optimisation de la gestion de stock / mutualisation &rarr;</a></li>
                   <li>Maîtrise énergétique</li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__equipement_bien.php">Inventaire d’équipements (critiques) / étiquetage</a></li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__definitions.php">Maintenance conditionnelle</a></li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__fiabilite.php">Calcul de fiabilité (MTBF, taux de défaillance)</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__equipement_bien.php">Inventaire d’équipements (critiques) / étiquetage &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__definitions.php">Maintenance conditionnelle &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__fiabilite.php">Calcul de fiabilité (MTBF, taux de défaillance) &rarr;</a></li>
                   <li>Organisation d’arrêts / Réceptions d’installations</li>
                   <li>Planification projets / Travaux</li>
                   <li>Rétrofit / reengineering</li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__plan_de_maintenance.php">Plans de maintenance, d’entretien</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__plan_de_maintenance.php">Plans de maintenance, d’entretien &rarr;</a></li>
                   <li>Documentation technique des équipements</li>
-                  <li><a href="/ingexpert/maintenance-coffret-GMAO.php">Solutions logicielles (GMAO, systèmes experts)</a></li>
+                  <li><a href="/ingexpert/maintenance-coffret-GMAO.php">Solutions logicielles (GMAO, systèmes experts) &rarr;</a></li>
                   <li>Gammes / modes opératoires</li>
                   <li>Juridique</li>
                 </ul>
@@ -125,9 +125,9 @@ plu<?php
               <details class="offer-item">
                 <summary class="offer-summary">Analyses liées à la maintenance</summary>
                 <ul class="offer-list">
-                  <li><a href="/maintexpert/php_theorie_maintenance__analyse_risques.php">Analyses de risques</a></li>
-                  <li><a href="/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">Sûreté de fonctionnement (SdF)</a></li>
-                  <li><a href="/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">ASL, SLI, SN</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__analyse_risques.php">Analyses de risques &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">Sûreté de fonctionnement (SdF) &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">ASL, SLI, SN &rarr;</a></li>
                   <li>Définition de coûts</li>
                   <li>Liste des rechanges (LAR / LAI)</li>
                 </ul>
@@ -150,10 +150,10 @@ plu<?php
               <details class="offer-item">
                 <summary class="offer-summary">Formations spécifiques</summary>
                 <ul class="offer-list">
-                  <li><a href="/ingexpert/maintenance-pack-formation-management.php">Management de la maintenance</a></li>
-                  <li><a href="/ingexpert/maintenance-pack-formation-stock.php">Gestion de stock</a></li>
-                  <li><a href="/ingexpert/maintenance-pack-formation-fiabilisation.php">Amélioration de la disponibilité, fiabilisation</a></li>
-                  <li><a href="/ingexpert/maintenance-pack-formation-contrat.php">Management des contrats de maintenance</a></li>
+                  <li><a href="/ingexpert/maintenance-pack-formation-management.php">Management de la maintenance &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-pack-formation-stock.php">Gestion de stock &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-pack-formation-fiabilisation.php">Amélioration de la disponibilité, fiabilisation &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-pack-formation-contrat.php">Management des contrats de maintenance &rarr;</a></li>
                   <li>Méthodologies de maintenance</li>
                 </ul>
               </details>
@@ -163,7 +163,7 @@ plu<?php
 
         </div>
       
-        <h2 class="text-center" style="color: var(--accent-pink); margin-bottom: var(--spacing-md);">
+        <h2 class="text-center" style="color: var(--text-dark); margin-bottom: var(--spacing-md);">
             Activité de nos clients</h2>
 
         <!-- Column 1: Sectors -->
@@ -251,7 +251,7 @@ plu<?php
 <section class="section mission-section">
   <div class="container">
     <div class="mission-header text-center">
-      <h2 style="color: var(--primary-blue); margin-bottom: 10px;">Notre mission standardisée</h2>
+      <h2 style="color: var(--text-dark); margin-bottom: 10px;">Notre mission standardisée</h2>
       <p class="mission-lead">
         Une approche claire, structurée et reproductible pour améliorer votre management de la maintenance.
       </p>
@@ -291,7 +291,7 @@ plu<?php
   <section class="section quality-section">
     <div class="container">
       <div class="quality-header">
-        <h2>Management par la Qualité</h2>
+        <h2 style="color: var(--text-dark); margin-bottom: 10px;">Management par la Qualité</h2>
         <p class="quality-lead">
           En plus de sa compétence "très terrain", Ingexpert utilise les référentiels depuis plus de 25 ans (ex présidence de la commission de normalisation AFNOR X60G).
         </p>
@@ -385,7 +385,7 @@ plu<?php
 <section class="section dialogue-section">
   <div class="container">
     <div class="text-center" style="margin-bottom: var(--spacing-lg);">
-      <h2 style="color: var(--primary-blue);">Dialogue</h2>
+      <h2 style="color: var(--text-dark); margin-bottom: 10px;">Dialogue</h2>
       <p class="dialogue-lead">Échanger, apprendre, partager des retours terrain.</p>
     </div>
 
