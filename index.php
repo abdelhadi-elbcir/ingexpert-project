@@ -312,18 +312,16 @@ plu<?php
         </div>
 
         <div class="card quality-card">
-          <h3>Référentiels & normes couvertes</h3>
+          <h3>Exemple de Référentiels & normes couvertes</h3>
 
           <div class="badge-grid" aria-label="Normes et référentiels">
             <span class="badge">Série X60G</span>
             <span class="badge">EN 13269</span>
-            <span class="badge">ISO 55000</span>
-            <span class="badge">ISO 55001</span>
-            <span class="badge">ISO 55010</span>
+            <span class="badge">ISO 55000 (la série)</span>
             <span class="badge">ISO 55012</span>
             <span class="badge">ISO 55013</span>
-            <span class="badge">ISO/TS 16949 (Auto)</span>
-            <span class="badge">EN9100 / AS9100 (Aéro)</span>
+            <span class="badge">ISO/TS 16949 (Automobile)</span>
+            <span class="badge">EN9100 / AS9100 (Aéronautique)</span>
             <span class="badge">TL9000 (Télécom)</span>
             <span class="badge">ISO 19443 (Nucléaire)</span>
           </div>
