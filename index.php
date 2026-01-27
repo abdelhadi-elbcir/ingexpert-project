@@ -59,7 +59,7 @@ plu<?php
 
            <div class="hero-subtitle">
         <p>Issue du terrain et du management, nous couvrons toute la hiérarchie de l'entreprise. Nous sommes aussi compétent en technique qu'en management. </p>
-        <p></p>
+        <p>Nous accompagnons les techniciens, les sous-traitants, l'encadrement intérmédiare et les Directions</p>
       </div>
 
       <div style="margin-top: 2rem;">
