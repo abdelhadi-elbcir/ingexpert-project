@@ -53,7 +53,7 @@
       <h1>Conseil, formation, expertise <br>pour le <br>management de la Direction Technique dont la maintenance</h1>
 
       <div class="hero-subtitle">
-         <p><b></b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...b/b></p>
+         <p><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b></p>
          <p>Accompagnement de tous les secteurs d’activité</p>
        
       </div>
