@@ -133,7 +133,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/layouts/header.inc.php";
 
       <h3 class=MsoNormal align=center style='text-align:center;line-height:normal'><b><span
             style='font-size:16.0pt;font-family:"Arial","sans-serif";color:#5594D9'>
-            VOUS: Maintenance des Réseaux </span></b></h3>
+           Maintenance des Réseaux </span></b></h3>
 
 
       <p style='text-align:justify' align="justify"><span style="font-family:Arial,sans-serif; font-size:10pt;">

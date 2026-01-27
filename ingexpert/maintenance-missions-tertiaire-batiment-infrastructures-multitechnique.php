@@ -124,7 +124,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/layouts/header.inc.php";
 
       <h4 class=MsoNormal align=center style='text-align:center;line-height:normal'><b><span
             style='font-size:16.0pt;font-family:"Arial","sans-serif";color:#5594D9'>
-            VOUS: Maintenance des Bâtiments, Tertiaire, Multi-technique, FM
+             Maintenance des Bâtiments, Tertiaire, Multi-technique, FM
           </span></b></h4>
 
 

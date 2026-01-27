@@ -121,13 +121,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/layouts/header.inc.php";
 		<div class="texte">
 
 
-			<!-- Fil d'ariane -->
-			<span class="filariane">Vous êtes ici : <a href="https://dev.ingexpert.com" class="lienfil">Accueil
-					Ingexpert.com</a> > <a
-					href="https://dev.ingexpert.com/ingexpert/maintenance-activite-conseil-coaching.php"
-					class="lienfil"> Notre activité</a> ></span> <span class="filarianeactive">IoT - Maintenance
-				prédictive</span>
-			</span><!--------------------------------------- Début texte html --------------------------------------------->
+	
 
 
 
