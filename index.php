@@ -50,7 +50,7 @@
     <div class="container">
       <img src="/images/maintenance-industrielle-management.jpg" alt="Expert Maintenance"
            style="margin: 0 auto 20px auto; max-width: 280px;">
-      <h1>Conseil, formation, expertise <br>pour le management de la Direction Technique dont la maintenance</h1>
+      <h1>Conseil, formation, expertise <br>pour le <br>management de la Direction Technique dont la maintenance</h1>
 
       <div class="hero-subtitle">
         <p>Accompagnement de tous les secteurs d’activité</p>
