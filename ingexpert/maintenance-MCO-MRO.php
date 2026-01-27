@@ -25,22 +25,94 @@ preventif, defaillance, curatif, consulting, previsionnel, plan de maintenance, 
   <meta name="language" content="fr">
 
 
-  <link rel="shortcut icon" type="image/x-icon"
-    href="https://dev.ingexpert.com/images/icone/conseil-formation-maintenance-industrielle.ico"
-    Title="Icone maintenance" />
-  <link rel="stylesheet" type="text/css"
-    href="https://dev.ingexpert.com/differents_fichiers/css/style_css_maintenance.css">
+<!-- New global design -->
+  <link rel="stylesheet" href="/assets/css/style_redesign.css">
+  <!-- Ingexpert unique overrides -->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="icon" href="/images/icone/conseil-formation-maintenance-industrielle.ico" type="image/x-icon">
+  
+<style>
+/* ================= CONTENU CENTRÉ MODERNE ================= */
+.content-wrapper {
+    max-width: 1100px;       /* largeur du contenu */
+    margin: 40px auto;       /* centré vertical et horizontal */
+    padding: 40px 30px;
+    background: #ffffff;
+    /* coins arrondis */
+    
+    color: #333;
+}
 
+
+
+/* Paragraphes et listes */
+.content-wrapper p,
+.content-wrapper li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Liens */
+.content-wrapper a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.content-wrapper a:hover {
+    text-decoration: underline;
+    color: #0b5ed7;
+}
+
+/* Listes personnalisées */
+.content-wrapper ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.content-wrapper ol {
+    padding-left: 25px;
+}
+
+/* Tables modernes */
+.content-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.content-wrapper table th,
+.content-wrapper table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.content-wrapper table th {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.content-wrapper table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+</style>
 
 </head>
 
-<body>
+<body class="theme-ingexpert">
 
+<?php
+// ✅ Shared HEADER only
+include $_SERVER['DOCUMENT_ROOT'] . "/layouts/header.inc.php";
+?>
 
-  <!-- Menu inséré par un include -->
-  <? include '../differents_fichiers/menu_maintenance/inc.menu_maintenance.inc'; ?>
+<div class="content-wrapper">
 
 
   <div id="global">
@@ -49,131 +121,7 @@ preventif, defaillance, curatif, consulting, previsionnel, plan de maintenance, 
     <!-- Logo et "Expert maintenance"" -->
     <div class="entete">
 
-      <div class="bonjour">
-
-        <table>
-          <td> <!--   bgcolor="#CCCCCC"     -->
-            <a href="https://dev.ingexpert.com"><img
-                src="https://dev.ingexpert.com/images/maintenance-industrielle-management.jpg"
-                Title="Conseil Maintenance industrielle" Alt="Conseil Maintenance industrielle" width="281"
-                height="31"></a>
-            <a href="https://dev.ingexpert.com">
-              <Font style="font-family: Arial; font-size:26px; font-weight: bold;  color:grey">Expert MAINTENANCE</font>
-            </a>
-            <p style="line-height:40%; margin-top:0; margin-bottom:0;"> &nbsp; </p>
-            <h1>
-              <center>
-                <p style="color:orange; font-size: 17.4px; line-height:100%; margin-top:0; margin-bottom:0;">
-                  Conseil, &nbsp; formation, &nbsp; expertise </span>
-                  <span style="color:black; font-size: 13px">pour le </span><span style="color:black; font-size: 17px">
-                    management de la maintenance </span>
-              </center>
-            </h1>
-            <hr>
-            <h2>
-              <p style="color:black; font-size: 14px; line-height:100%; margin-top:0; margin-bottom:0;"
-                align="justify ">
-                Accompagnement de votre management de la maintenance industrielle, SAV, BTP, tertiaire, transport,
-                biomédicale, énergie <span style="color:orange;">par le conseil, le coaching et l'ingénierie : audit,
-                  formation, contrats, fiabilisation, progrès, etc.
-            </h2>
-            <hr>
-            </p>
-
-
-            <!-- Menu sous l'entete -->
-
-            <div class="police">
-
-              <H3><span style='font-size:13.0pt; font-family:"Arial","sans-serif";color:#449AF5'>Notre activité</span>
-              </H3>
-
-
-
-              <a href="https://dev.ingexpert.com/ingexpert/maintenance-activite-conseil-coaching.php">Spécialiste en
-                maintenance</a><br>
-              <a href="maintenance-management-transition-directeur-technique-industriel.php">Manager transition /Intérim
-                manager</a><br>
-
-              <img src="https://dev.ingexpert.com/images/maintenance-puce-bas.gif" border="0" width="7"
-                height="7">&nbsp;<a href="https://dev.ingexpert.com/ingexpert/maintenance-pack-stock-magasin.php">Nos
-                missions type</a><br>
-
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/php-missions-methodologie-maintenance-politique-organisation-strategie-objectif.php">Politique:
-                organisation /stratégie /objectif</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/php-missions-methodologie-maintenance-bonne-pratique-amelioration.php">Bonnes
-                pratiques - Améliorations</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-pack-stock-magasin.php">Gestion de stock</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-pack-contrat.php">Contrats</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://dev.ingexpert.com/ingexpert/maintenance-pack-fin-contrat.php">Fin
-                de vie de contrat</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-coffret-audit-management.php">Audit</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-coffret-GMAO.php">GMAO</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-transfert-competence.php">Transfert de savoir
-                faire</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-coaching.php">Coaching</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://dev.ingexpert.com/images/maintenance-puce.gif" border="0"
-                width="7" height="7">&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-coffret-fiabilisation.php">Fiabilisation</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-methode-amelioration-projet-indicateur.php">Méthodes
-                maintenance</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-realite-virtuelle-VR-management-expert-mode-operatoire-plan-maintenance.php">Réalité
-                virtuelle</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="https://dev.ingexpert.com/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">SdF
-                - SLI</a><br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family: Arial ; font-size:15px; bold; color: #449AF5;">Maintien
-                en Condition Opérationelle - MRO</a><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://dev.ingexpert.com/ingexpert/maintenance-IOT-predictive.php">IoT
-                  - Maintenance prédictive</a><br>
-
-
-
-
-                <img src="https://dev.ingexpert.com/images/maintenance-puce.gif" border="0" width="7"
-                  height="7">&nbsp;<a href="https://dev.ingexpert.com/ingexpert/maintenance-pack-formation.php">Nos
-                  formations</a><br>
-
-
-
-
-
-
-
-
-
-
-                <hr>
-
-            </div>
-
-          </td>
-        </table>
-      </div>
-    </div>
-
-
-    <!-- Début du texte -->
-    <div class="texte">
-
-
-      <!-- Fil d'ariane -->
-      <span class="filariane">Vous êtes ici : <a href="https://dev.ingexpert.com" class="lienfil">Accueil
-          Ingexpert.com</a> > <a href="https://dev.ingexpert.com/ingexpert/maintenance-activite-conseil-coaching.php"
-          class="lienfil"> Notre activité</a> ></span> <span class="filarianeactive">MCO - MRO</span>
-      </span><!--------------------------------------- Début texte html --------------------------------------------->
-
-
+    
 
       <h4 align=center style='text-align:center'><span style='font-size:16.0pt;
 font-family:"Arial","sans-serif";color:#5594D9'>MAINTIEN EN CONDITION OPERATIONNELLE (MCO) - MRO</H4>
@@ -277,14 +225,17 @@ font-family:"Arial","sans-serif";color:#5594D9'>MAINTIEN EN CONDITION OPERATIONN
 
     </div>
   </div><!-- Fin Div global -->
+</div>
 
-  <!-- Footer inséré par un include -->
-  <? include("../differents_fichiers/footer_maintenance/inc.footer_maintenance.inc"); ?>
+<?php
+// ✅ Shared FOOTER only
+include $_SERVER['DOCUMENT_ROOT'] . "/layouts/footer.inc.php";
+?>
 
-  <!-- Javascript pour le menu -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-  <script type="text/javascript" src="https://dev.ingexpert.com/differents_fichiers/java/script.js"></script>
+<!-- New global JS (menu scroll + mobile) -->
+<script src="/assets/js/site.js"></script>
 
+<!-- Javascript pour le menu --> 
 </body>
 
 </html>

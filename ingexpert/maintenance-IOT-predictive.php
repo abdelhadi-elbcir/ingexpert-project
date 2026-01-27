@@ -24,23 +24,94 @@ preventif, defaillance, curatif, consulting, previsionnel, plan de maintenance, 
 	<META NAME="revisit-after" CONTENT="7 days">
 	<meta name="language" content="fr">
 
+<!-- New global design -->
+  <link rel="stylesheet" href="/assets/css/style_redesign.css">
+  <!-- Ingexpert unique overrides -->
 
-	<link rel="shortcut icon" type="image/x-icon"
-		href="https://dev.ingexpert.com/images/icone/conseil-formation-maintenance-industrielle.ico"
-		Title="Icone maintenance" />
-	<link rel="canonical" href="https://dev.ingexpert.com/ingexpert/maintenance-IOT-predictive.php" />
+  <link rel="icon" href="/images/icone/conseil-formation-maintenance-industrielle.ico" type="image/x-icon">
+  
+<style>
+/* ================= CONTENU CENTRÉ MODERNE ================= */
+.content-wrapper {
+    max-width: 1100px;       /* largeur du contenu */
+    margin: 40px auto;       /* centré vertical et horizontal */
+    padding: 40px 30px;
+    background: #ffffff;
+    /* coins arrondis */
+    
+    color: #333;
+}
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<link rel="stylesheet" href="/assets/css/style_redesign.css" />
 
+
+/* Paragraphes et listes */
+.content-wrapper p,
+.content-wrapper li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Liens */
+.content-wrapper a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.content-wrapper a:hover {
+    text-decoration: underline;
+    color: #0b5ed7;
+}
+
+/* Listes personnalisées */
+.content-wrapper ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.content-wrapper ol {
+    padding-left: 25px;
+}
+
+/* Tables modernes */
+.content-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.content-wrapper table th,
+.content-wrapper table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.content-wrapper table th {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.content-wrapper table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+</style>
 
 </head>
 
-<body>
+<body class="theme-ingexpert">
 
+<?php
+// ✅ Shared HEADER only
+include $_SERVER['DOCUMENT_ROOT'] . "/layouts/header.inc.php";
+?>
 
-	<!-- Menu inséré par un include -->
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/layouts/header.inc.php"; ?>
+<div class="content-wrapper">
 
 
 	<div id="global">
@@ -179,10 +250,17 @@ preventif, defaillance, curatif, consulting, previsionnel, plan de maintenance, 
 		</div>
 	</div><!-- Fin Div global -->
 
-	<!-- Footer inséré par un include -->
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/layouts/footer.inc.php"; ?>
-	<!-- Javascript pour le menu -->
-	<script src="/assets/js/site.js"></script>
+</div>
+
+<?php
+// ✅ Shared FOOTER only
+include $_SERVER['DOCUMENT_ROOT'] . "/layouts/footer.inc.php";
+?>
+
+<!-- New global JS (menu scroll + mobile) -->
+<script src="/assets/js/site.js"></script>
+
+<!-- Javascript pour le menu --> 
 
 </body>
 
