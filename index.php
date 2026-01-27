@@ -261,13 +261,13 @@
       <div class="card mission-card">
         <div class="mission-step">1</div>
         <h3>Diagnostiquer</h3>
-        <p class="text-light">État des lieux, analyse des pratiques, points forts / points à risque.</p>
+        <p class="text-light">Votre constat, Audit, État des lieux, analyse des pratiques, points forts / points à risque.</p>
       </div>
 
       <div class="card mission-card">
         <div class="mission-step">2</div>
         <h3>Structurer</h3>
-        <p class="text-light">Processus, rôles, indicateurs, plan d’actions et priorisation terrain.</p>
+        <p class="text-light">Processus, amélioration continue, rôles, plan d’actions et priorisation terrain, tableau de bord.</p>
       </div>
 
       <div class="card mission-card">
@@ -293,7 +293,7 @@
       <div class="quality-header">
         <h2>Management par la Qualité</h2>
         <p class="quality-lead">
-          Ingexpert est orienté référentiels depuis plus de 25 ans (commission de normalisation X60G).
+          Ingexpert est orienté référentiels depuis plus de 25 ans (ex présidence de la commission de normalisation AFNOR X60G).
         </p>
       </div>
 
