@@ -374,7 +374,7 @@ plu<?php
 
       <div class="text-center" style="margin-top: var(--spacing-lg);">
         <p style="color: var(--text-dark); margin-bottom: 1rem;">• Formations dans un cadre naturel agréable du Sud Lubéron </p>
-         <b>Nous dispensons également des formation intra et à distance, avec ou sans cas pratique étalés dans le temps</b>
+         <br>Nous dispensons également des formations intra et à distance, avec ou sans cas pratiques étalés dans le temps</br>
         <a href="/ingexpert/php-missions-methodologie-maintenance-formation.php" class="button">
           Voir toutes les formations
         </a>
