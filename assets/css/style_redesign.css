@@ -377,7 +377,7 @@ a:hover {
 
 .clients-grid img {
   opacity: 0.85;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
   transition: all 0.25s ease;
   border-radius: 10px;
 }
