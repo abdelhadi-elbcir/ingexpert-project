@@ -96,11 +96,11 @@
       <p class="footer-small">Désinscription possible à tout moment.</p>
 
       <!-- If you don't have backend yet, keep action="#" -->
-      <!-- <form class="footer-form" action="#" method="post">
+      <form class="footer-form" action="#" method="post">
         <label class="sr-only" for="footerEmail">Votre email</label>
         <input id="footerEmail" name="email" type="email" placeholder="Votre email" required>
         <button type="submit">S’inscrire</button>
-      </form> -->
+      </form>
     </div>
 
   </div>

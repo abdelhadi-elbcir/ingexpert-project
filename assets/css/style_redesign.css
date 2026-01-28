@@ -442,7 +442,7 @@ a:hover {
   width: auto;
   max-width: 260px;
   object-fit: contain;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
   opacity: 0.9;
   transition: filter .2s ease, opacity .2s ease, transform .2s ease;
 }
@@ -565,7 +565,7 @@ a:hover {
 .sectors-grid .sector-card p{
   position: relative;
   z-index: 2;
-  color: var(--accent-green);
+  color: var(--bg-white);
 }
 
 .sectors-grid .sector-card h3{

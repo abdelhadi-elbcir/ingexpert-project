@@ -196,7 +196,7 @@
 
         </div>
       
-        <h2 class="text-center" style="color: var(--text-dark); margin-bottom: var(--spacing-md);">
+        <h2 class="text-center" style="color: var(--primary-blue); margin-bottom: var(--spacing-md);">
             Activité de nos clients</h2>
 
         <!-- Column 1: Sectors -->
@@ -252,7 +252,7 @@
   <!-- Clients Section -->
   <section class="clients-section section">
     <div class="container">
-      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--text-dark);">Ils nous font confiance</h2>
+      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--accent-yellow);">Ils nous font confiance</h2>
       <div class="clients-slider" aria-label="Logos clients">
       <div class="clients-track">
         <!-- Logos (set 1) -->
@@ -299,7 +299,7 @@
 <section class="section mission-section">
   <div class="container">
     <div class="mission-header text-center">
-      <h2 style="color: var(--text-dark); margin-bottom: 10px;">Exemple de standard de mission</h2>
+      <h2 style="color: var(--accent-green); margin-bottom: 10px;">Exemple de standard de mission</h2>
       <p class="mission-lead">
         Nous utilisons des méthodologies éprouvées, claires, structurées et reproductible pour améliorer votre management
       </p>
@@ -336,7 +336,7 @@
   <section class="section quality-section">
     <div class="container">
       <div class="quality-header">
-        <h2 style="color: var(--text-dark); margin-bottom: 10px;">Management par la Qualité</h2>
+        <h2 style="color: var(--accent-pink); margin-bottom: 10px;">Management par la Qualité</h2>
         <p class="quality-lead">
           En plus de sa compétence &laquo; très terrain &raquo;, Ingexpert utilise les référentiels depuis plus de 25 ans (ex présidence de la commission de normalisation AFNOR X60G).
         </p>
@@ -352,7 +352,6 @@
 
           <div class="quality-actions">
             <a class="button" href="/contact.php">Demander un échange</a>
-            <a class="btn-text" href="/ingexpert/maintenance-activite-references.php">Nos références &rarr;</a>
           </div>
         </div>
 
@@ -381,7 +380,7 @@
   <!-- Trainings Section -->
   <section class="section-training" style="background-color: var(--bg-white);">
     <div class="container">
-      <h2 class="text-center" style="margin-bottom: var(--spacing-lg);">Nos formations inter</h2>
+      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--text-light)">Nos formations inter</h2>
 
       <div class="grid grid-2">
         <div class="card">
@@ -418,8 +417,8 @@
       </div>
 
       <div class="text-center" style="margin-top: var(--spacing-lg);">
-        <p style="color: var(--text-dark); margin-bottom: 1rem;">• Formations dans un cadre naturel agréable du Sud Lubéron </p>
-         <br>Nous dispensons également des formations intra et à distance, avec ou sans cas pratiques étalés dans le temps</br>
+        <p style="color: var(--text-dark); margin-bottom: 1rem;">• Formations dans un cadre naturel agréable du Sud Lubéron
+         <br/>• Nous dispensons également des formations intra et à distance, avec ou sans cas pratiques étalés dans le temps  </p> </br>
         <a href="/ingexpert/php-missions-methodologie-maintenance-formation.php" class="button">
           Voir toutes les formations
         </a>
@@ -436,14 +435,14 @@
     </div>
 
     <div class="grid grid-2">
-      <a href="/forum/" class="card dialogue-card">
+      <!-- <a href="/forum/" class="card dialogue-card">
         <div class="dialogue-icon" aria-hidden="true">💬</div>
         <h3>Forum</h3>
         <p class="text-light">Posez vos questions, partagez vos cas concrets, discutez méthodes & outils.</p>
         <span class="link-more">Accéder au forum &rarr;</span>
-      </a>
+      </a> -->
 
-      <a href="/blog/" class="card dialogue-card">
+      <a href="https://blog.ingexpert.com" class="card dialogue-card">
         <div class="dialogue-icon" aria-hidden="true">📝</div>
         <h3>Blog</h3>
         <p class="text-light">Articles, bonnes pratiques, modèles, indicateurs, retours d’expérience.</p>
