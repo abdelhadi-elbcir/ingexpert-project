@@ -301,7 +301,7 @@
     <div class="mission-header text-center">
       <h2 style="color: var(--text-dark); margin-bottom: 10px;">Exemple de standard de mission</h2>
       <p class="mission-lead">
-        Des méthodologies expertes, claires, structurées et reproductible pour améliorer votre management
+        Nous utilisons des méthodologies éprouvées, claires, structurées et reproductible pour améliorer votre management
       </p>
     </div>
 
