@@ -50,9 +50,9 @@
     <div class="container">
       <img src="/images/maintenance-industrielle-management.jpg" alt="Expert Maintenance"
            style="margin: 0 auto 20px auto; max-width: 280px;">
-      <h1>Conseil, formation, expertise</h1> 
-      <span style="font-size: 1.5rem; font-weight: 700;">pour le</span> <br>
-      <h1>management de la Direction Technique dont la maintenance</h1>
+      <h1>Management de la Direction Technique - Maintenance</h1> 
+      <span style="font-size: 1.5rem; font-weight: 700;">_</span> <br>
+      <h1>conseil - formation - expertise</h1>
 
       <div class="hero-subtitle">
          <p><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b></p>
@@ -299,9 +299,9 @@
 <section class="section mission-section">
   <div class="container">
     <div class="mission-header text-center">
-      <h2 style="color: var(--text-dark); margin-bottom: 10px;">Notre mission standardisée</h2>
+      <h2 style="color: var(--text-dark); margin-bottom: 10px;">Exemple de standard de mission</h2>
       <p class="mission-lead">
-        Une approche claire, structurée et reproductible pour améliorer votre management de la maintenance.
+        Nous utilisons des méthodologies éprouvées, claires, structurées et reproductible pour améliorer votre management
       </p>
     </div>
 
