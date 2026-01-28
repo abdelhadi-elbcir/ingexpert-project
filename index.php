@@ -327,9 +327,6 @@
 
     <div class="mission-cta text-center" style="margin-top: var(--spacing-lg);">
       <a href="/contact.php" class="button">Parler de votre besoin</a>
-      <a href="/ingexpert/maintenance-activite-references.php" class="btn-text" style="margin-left: 14px;">
-        Voir nos références &rarr;
-      </a>
     </div>
   </div>
 </section>
