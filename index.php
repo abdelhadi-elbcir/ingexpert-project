@@ -52,7 +52,7 @@
            style="margin: 0 auto 20px auto; max-width: 280px;">
       <h1>Management de la Direction Technique / maintenance</h1> 
       <span style="font-size: 1.5rem; font-weight: 700;">_</span> <br>
-      <h1>Conseil, formation, expertise</h1>
+      <h1>conseil - formation - expertise</h1>
 
       <div class="hero-subtitle">
          <p><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b></p>
