@@ -50,9 +50,9 @@
     <div class="container">
       <img src="/images/maintenance-industrielle-management.jpg" alt="Expert Maintenance"
            style="margin: 0 auto 20px auto; max-width: 280px;">
-      <h1>Conseil, formation, expertise</h1> 
-      <span style="font-size: 1.5rem; font-weight: 700;">pour le</span> <br>
-      <h1>management de la Direction Technique dont la maintenance</h1>
+      <h1>Management de la Direction Technique dont la maintenance</h1> 
+      <span style="font-size: 1.5rem; font-weight: 700;">_</span> <br>
+      <h1>Conseil, formation, expertise</h1>
 
       <div class="hero-subtitle">
          <p><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b></p>
