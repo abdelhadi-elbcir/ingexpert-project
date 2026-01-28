@@ -592,6 +592,7 @@ a:hover {
 ========================= */
 .quality-section{
   margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
   background: var(--bg-light-gray);
 }
 
