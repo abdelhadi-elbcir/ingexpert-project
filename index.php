@@ -299,9 +299,9 @@
 <section class="section mission-section">
   <div class="container">
     <div class="mission-header text-center">
-      <h2 style="color: var(--text-dark); margin-bottom: 10px;">Notre mission standardisée</h2>
+      <h2 style="color: var(--text-dark); margin-bottom: 10px;">Exemple de standard de mission</h2>
       <p class="mission-lead">
-        Une approche claire, structurée et reproductible pour améliorer votre management de la maintenance.
+        Des méthodologies expertes, claires, structurées et reproductible pour améliorer votre management
       </p>
     </div>
 
