@@ -50,7 +50,9 @@
     <div class="container">
       <img src="/images/maintenance-industrielle-management.jpg" alt="Expert Maintenance"
            style="margin: 0 auto 20px auto; max-width: 280px;">
-      <h1>Conseil, formation, expertise <br>pour le <br>management de la Direction Technique dont la maintenance</h1>
+      <h1>Conseil, formation, expertise</h1> 
+      <span style="font-size: 1.5rem; font-weight: 700;">pour le</span> <br>
+      <h1>management de la Direction Technique dont la maintenance</h1>
 
       <div class="hero-subtitle">
          <p><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b></p>
@@ -70,7 +72,7 @@
   </section>
 
   <!-- Activities Grid -->
-  <section class="section">
+  <section class="section-activities">
     <div class="container">
       <div class="grid">
 
@@ -95,7 +97,7 @@
 
               <!-- 2 -->
               <details class="offer-item">
-                <summary class="offer-summary">Définition, (Ré)organisation maintenance</summary>
+                <summary class="offer-summary">Définition, (Ré)organisation</summary>
                 <ul class="offer-list">
                   <li><a href="/ingexpert/php-missions-methodologie-maintenance-politique-organisation-strategie-objectif.php">Définition politique, stratégie et objectifs &rarr;</a></li>
                   <li><a href="/maintexpert/php_theorie_maintenance__processus.php">Définition organisation du service / processus &rarr;</a></li>
@@ -108,32 +110,34 @@
 
               <!-- 3 -->
               <details class="offer-item">
-                <summary class="offer-summary">Ingénierie maintenance</summary>
+                <summary class="offer-summary">Ingénierie</summary>
                 <ul class="offer-list">
                   <li><a href="/ingexpert/maintenance-coffret-fiabilisation.php">Disponibilité (Fiabilisation, maintenabilité, MTTR) &rarr;</a></li>
-                  <li><a href="/ingexpert/maintenance-pack-stock-magasin.php">Optimisation de la gestion de stock / mutualisation &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-pack-stock-magasin.php">Optimisation de la gestion de stock / mutualisation, consignation &rarr;</a></li>
                   <li>Maîtrise énergétique</li>
                   <li><a href="/maintexpert/php_theorie_maintenance__equipement_bien.php">Inventaire d’équipements (critiques) / étiquetage &rarr;</a></li>
-                  <li><a href="/maintexpert/php_theorie_maintenance__definitions.php">Maintenance conditionnelle &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__definitions.php">Maintenance conditionnelle (analyse vibratoire, d'huile, endoscopie, capteurs) &rarr;</a></li>
                   <li><a href="/maintexpert/php_theorie_maintenance__fiabilite.php">Calcul de fiabilité (MTBF, taux de défaillance) &rarr;</a></li>
-                  <li>Organisation d’arrêts / Réceptions d’installations</li>
+                  <li>Organisation d’arrêts / Réceptions d’installations / Qualifications</li>
                   <li>Planification projets / Travaux</li>
                   <li>Rétrofit / reengineering</li>
                   <li><a href="/maintexpert/php_theorie_maintenance__plan_de_maintenance.php">Plans de maintenance, d’entretien &rarr;</a></li>
                   <li>Documentation technique des équipements</li>
                   <li><a href="/ingexpert/maintenance-coffret-GMAO.php">Solutions logicielles (GMAO, systèmes experts) &rarr;</a></li>
                   <li>Gammes / modes opératoires</li>
-                  <li>Juridique</li>
                 </ul>
               </details>
 
+              <details class="offer-item">
+                <summary class="offer-summary">Juridique</summary>
+              </details> 
+
               <!-- 4 -->
               <details class="offer-item">
-                <summary class="offer-summary">Analyses liées à la maintenance</summary>
+                <summary class="offer-summary">Analyses de risques</summary>
                 <ul class="offer-list">
-                  <li><a href="/maintexpert/php_theorie_maintenance__analyse_risques.php">Analyses de risques &rarr;</a></li>
-                  <li><a href="/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">Sûreté de fonctionnement (SdF) &rarr;</a></li>
-                  <li><a href="/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">ASL, SLI, SN &rarr;</a></li>
+                  <li><a href="/maintexpert/php_theorie_maintenance__analyse_risques.php">Analyses de risques (AMDEC, Ishikawa) &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">Sureté de fonctionnement (SdF) &rarr;</a></li>
                   <li>Définition de coûts</li>
                   <li>Liste des rechanges (LAR / LAI)</li>
                 </ul>
@@ -141,14 +145,14 @@
 
               <!-- 5 -->
               <details class="offer-item">
-                <summary class="offer-summary">Sous-traitance de la maintenance</summary>
+                <summary class="offer-summary">Sous-traitance, prestation</summary>
                 <ul class="offer-list">
                   <li>Rédaction des cahiers des charges</li>
-                  <li>Rédaction de contrats de moyens ou de résultat</li>
                   <li>Accompagnement de consultation</li>
                   <li>Contrats de maintenance et leur suivi</li>
                   <li>Plan qualité adaptés aux contrats</li>
                   <li>Bordereaux points</li>
+                  <li>Rédaction/mise à jour de contrats (de moyens ou de résultat)</li>
                 </ul>
               </details>
 
@@ -159,8 +163,31 @@
                   <li><a href="/ingexpert/maintenance-pack-formation-management.php">Management de la maintenance &rarr;</a></li>
                   <li><a href="/ingexpert/maintenance-pack-formation-stock.php">Gestion de stock &rarr;</a></li>
                   <li><a href="/ingexpert/maintenance-pack-formation-fiabilisation.php">Amélioration de la disponibilité, fiabilisation &rarr;</a></li>
-                  <li><a href="/ingexpert/maintenance-pack-formation-contrat.php">Management des contrats de maintenance &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-pack-formation-contrat.php">Management des contrats de prestation dont la maintenance &rarr;</a></li>
                   <li>Méthodologies de maintenance</li>
+                </ul>
+              </details>
+
+              <!-- 7 -->
+              <details class="offer-item">
+                <summary class="offer-summary">Maintenance 4.0</summary>
+                <ul class="offer-list">
+                  <li><a href="/ingexpert/maintenance-realite-virtuelle-VR-management-expert-mode-operatoire-plan-maintenance.php">Réalité virtuelle &rarr;</a></li>
+                  <li>HUMS</li>
+                  <li>IT appliquée à la maintenance</li>
+                  <li><a href="/ingexpert/maintenance-IOT-predictive.php">Capteurs IoT et &quot;pseudo&quot; maintenance &quot;prédictive&quot; &rarr;</a></li>
+                </ul>
+              </details>
+
+              <!-- 8 -->
+              <details class="offer-item">
+                <summary class="offer-summary">Management de projet</summary>
+                <ul class="offer-list">
+                  <li><a href="/ingexpert/maintenance-management-transition-directeur-technique-industriel.php">Managemt de transition, Conduite du changement &rarr;</a></li>
+                  <li>PLM</li>
+                  <li>MCO, MRO, Maintien en condition opérationelle</li>
+                  <li>Pilotage de la performance</li>
+                  <li><a href="/ingexpert/maintenance-surete-fonctionnement-SdF-SLI-soutien-logistique-integre-disponibilite-fiabilite.php">ASL, SLI, SN &rarr;</a></li>
                 </ul>
               </details>
 
@@ -340,7 +367,7 @@
 
 
   <!-- Trainings Section -->
-  <section class="section" style="background-color: var(--bg-light-gray);">
+  <section class="section-training" style="background-color: var(--bg-white);">
     <div class="container">
       <h2 class="text-center" style="margin-bottom: var(--spacing-lg);">Nos formations inter</h2>
 
@@ -416,7 +443,7 @@
 
 
   <!-- Resources & Publications -->
-  <section class="section">
+  <section class="section-pubs">
     <div class="container text-center">
       <h2 style="color: var(--primary-blue); margin-bottom: var(--spacing-lg);">Ressources & Publications</h2>
       <div class="grid grid-2">
