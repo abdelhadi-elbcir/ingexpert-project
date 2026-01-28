@@ -269,6 +269,21 @@
         <div class="client-logo"><img src="/images/logos/sanofi-logo.png" alt="sanofi-logo"></div>
         <div class="client-logo"><img src="/images/logos/stryker.png" alt="stryker"></div>
         <div class="client-logo"><img src="/images/logos/Vetoquinol.jpg" alt="Vetoquinol"></div>
+
+        <!-- Logos (set 2) -->
+        <div class="client-logo"><img src="/images/logos/884263.png" alt="884263"></div>
+        <div class="client-logo"><img src="/images/logos/Benvic-logo-landscape.png" alt="Benvic-logo-landscape"></div>
+        <div class="client-logo"><img src="/images/logos/CNIM.jpg" alt="CNIM"></div>
+        <div class="client-logo"><img src="/images/logos/logo-cdm-1.jpg" alt="logo-cdm-1"></div>
+        <div class="client-logo"><img src="/images/logos/pwc.png" alt="pwc"></div>
+        <div class="client-logo"><img src="/images/logos/vinci.png" alt="vinci"></div>
+        <div class="client-logo"><img src="/images/logos/carrier.png" alt="carrier"></div>
+        <div class="client-logo"><img src="/images/logos/lafarge.png" alt="lafarge"></div>
+        <div class="client-logo"><img src="/images/logos/eiffage.png" alt="eiffage"></div>
+        <div class="client-logo"><img src="/images/logos/areva.png" alt="areva"></div>
+        <div class="client-logo"><img src="/images/logos/sanofi-logo.png" alt="sanofi-logo"></div>
+        <div class="client-logo"><img src="/images/logos/stryker.png" alt="stryker"></div>
+        <div class="client-logo"><img src="/images/logos/Vetoquinol.jpg" alt="Vetoquinol"></div>
     
 
       </div>
