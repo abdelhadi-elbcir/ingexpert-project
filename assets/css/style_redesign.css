@@ -591,6 +591,7 @@ a:hover {
    Quality / Standards
 ========================= */
 .quality-section{
+  margin-top: var(--spacing-lg);
   background: var(--bg-light-gray);
 }
 

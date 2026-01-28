@@ -338,7 +338,7 @@
       <div class="quality-header">
         <h2 style="color: var(--text-dark); margin-bottom: 10px;">Management par la Qualité</h2>
         <p class="quality-lead">
-          En plus de sa compétence "très terrain", Ingexpert utilise les référentiels depuis plus de 25 ans (ex présidence de la commission de normalisation AFNOR X60G).
+          En plus de sa compétence &laquo; très terrain &raquo;, Ingexpert utilise les référentiels depuis plus de 25 ans (ex présidence de la commission de normalisation AFNOR X60G).
         </p>
       </div>
 
