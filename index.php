@@ -201,44 +201,44 @@
 
         <!-- Column 1: Sectors -->
         <div class="grid grid-2 sectors-grid">
-          <a href="https://maintenance.industrielle.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-industries.jpg">
+          <a href="https://maintenance.industrielle.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-industries.webp">
             <h3>Industrie</h3>
             <p>Conseil management maintenance Industrie</p>
           </a>
 
-          <a href="/ingexpert/maintenance-missions-SAV.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-SAV.jpg">
+          <a href="/ingexpert/maintenance-missions-SAV.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-SAV.webp">
             <h3>SAV</h3>
             <p>Conseil management maintenance SAV</p>
           </a>
 
-          <a href="https://maintenance.energie.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-energie.jpg">
+          <a href="https://maintenance.energie.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-energie.webp">
             <h3>Énergie</h3>
             <p>Conseil management maintenance énergie</p>
           </a>
 
-          <a href="/ingexpert/maintenance-mission-reseaux-gaz-electricite-fluide.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-reseaux.jpg">
+          <a href="/ingexpert/maintenance-mission-reseaux-gaz-electricite-fluide.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-reseaux.webp">
             <h3>Réseaux</h3>
             <p>Fluides - Gaz - Electricité</p>
           </a>
 
-          <a href="/ingexpert/maintenance-missions-transport-travaux-publics-transport-ouvrages.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-infrastructures.jpg">
+          <a href="/ingexpert/maintenance-missions-transport-travaux-publics-transport-ouvrages.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-infrastructures.webp">
             <h3>Infrastructures</h3>
             <p>Conseil management maintenance infrastructure</p>
           </a>
 
-          <a href="/ingexpert/maintenance-missions-biomedicale-hopitaux.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-hopitaux.jpg">
+          <a href="/ingexpert/maintenance-missions-biomedicale-hopitaux.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-hopitaux.webp">
             <h3>Hôpitaux</h3>
             <p>Biomédical - Serv. Technique</p>
           </a>
 
           <!-- NEW: Tertiaire -->
-          <a href="/ingexpert/maintenance-missions-tertiaire.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-tertiaire.jpg">
+          <a href="/ingexpert/maintenance-missions-tertiaire.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-tertiaire.webp">
             <h3>Tertiaire</h3>
             <p>Services, bâtiments, sites tertiaires</p>
           </a>
 
           <!-- NEW: Transport -->
-          <a href="/ingexpert/maintenance-missions-transport.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-transports.jpg">
+          <a href="/ingexpert/maintenance-missions-transport.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-transports.webp">
             <h3>Transport</h3>
             <p>Maintenance transport, logistique, mobilité</p>
           </a>
