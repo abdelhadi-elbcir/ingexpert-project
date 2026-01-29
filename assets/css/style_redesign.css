@@ -793,7 +793,7 @@ a:hover {
   padding-left: var(--spacing-sm);
   padding-right: var(--spacing-sm);
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr 1.2fr;
+  grid-template-columns: 1.2fr 1fr 1fr;
   gap: 28px;
 }
 

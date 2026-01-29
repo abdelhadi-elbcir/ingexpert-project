@@ -11,14 +11,19 @@
         Conseil, formation, expertise pour le management de la Direction Technique dont la maintenance.
         Accompagnement de tous les secteurs d’activité.
       </p>
+      <hr/>
 
-      <p class="footer-small" style="margin-top:10px;">
-        <strong>Ingexpert :</strong> Maintenance Industrielle • Tertiaire • Transport • Biomédicale
-      </p>
+      <ul class="footer-links">
+        <li><a href="https://dev.ingexpert.com">Accueil</a></li>
+        <li><a href="https://dev.ingexpert.com/ingexpert/maintenance-activite-references.php">Références</a></li>
+        <li><a href="https://dev.ingexpert.com/ingexpert/php-missions-methodologie-maintenance-formation.php">Formations</a></li>
+        <li><a href="https://dev.ingexpert.com/ingexpert/php-missions-methodologie-maintenance-formation.php">Méthodologie</a></li>
+      </ul>
+
     </div>
 
     <!-- Col 2: Quick links -->
-    <div class="footer-col">
+    <!-- <div class="footer-col">
       <h3 class="footer-title">Liens rapides</h3>
       <ul class="footer-links">
         <li><a href="https://dev.ingexpert.com">Accueil</a></li>
@@ -26,7 +31,7 @@
         <li><a href="/ingexpert/php-missions-methodologie-maintenance-formation.php">Formations</a></li>
         <li><a href="/ingexpert/php-missions-methodologie-maintenance-formation.php">Méthodologie</a></li>
       </ul>
-    </div>
+    </div> -->
 
     <!-- Col 3: Contact (France/Maroc + WhatsApp + Mail link) -->
     <div class="footer-col">
@@ -38,12 +43,12 @@
         </li>
 
         <li>
-          <span class="footer-label">Télé :</span>
+          <span class="footer-label">Téléphone :</span>
           <a href="tel:+33465230107">+33 (0)4 65 23 01 07</a>
         </li>
 
         <li>
-          <span class="footer-label">Télé :</span>
+          <span class="footer-label">Téléphone :</span>
           <a href="tel:+33663322355">+33 (0)6 63 32 23 55</a>
         </li>
 
@@ -53,11 +58,11 @@
         </li>
 
         <li class="footer-small" style="margin-top:14px;">
-          <strong>Maroc</strong>
+          <strong>INGEXPERT – Maroc</strong>
         </li>
 
         <li>
-          <span class="footer-label">Télé :</span>
+          <span class="footer-label">Téléphone :</span>
           <a href="tel:+212619302751">+212 (0)6 19 30 27 51</a>
         </li>
 
