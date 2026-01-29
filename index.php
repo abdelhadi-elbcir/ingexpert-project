@@ -201,7 +201,7 @@
 
         <!-- Column 1: Sectors -->
         <div style="margin-bottom: var(--spacing-lg);" class="grid grid-2 sectors-grid">
-          <a href="https://maintenance.industrielle.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-industries.webp">
+          <a href="/ingexpert/maintenance-industrie-industrielle.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-industries.webp">
             <h3>Industrie</h3>
             <p>Conseil management maintenance Industrie</p>
           </a>
@@ -211,7 +211,7 @@
             <p>Conseil management maintenance SAV</p>
           </a>
 
-          <a href="https://maintenance.energie.ingexpert.com" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-energie.webp">
+          <a href="/ingexpert/maintenance-energie-gaz-eolien-solaire-recyclage.php" class="card sector-card" data-bg="/images/images-index-maintenance/maintenance/maintenance-expert-conseil-energie.webp">
             <h3>Énergie</h3>
             <p>Conseil management maintenance énergie</p>
           </a>
