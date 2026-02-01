@@ -61,13 +61,13 @@
        
       <div class="hero-subtitle">
          <br><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b>
-         <p>Accompagnement de tous les secteurs d’activité</p>
+         <p style="text-align: justify;>Accompagnement de tous les secteurs d’activité</p>
        
       </div>
 
            <div class="hero-subtitle">
-        <p>Issue du terrain et du management, nous couvrons toute la hiérarchie de l'entreprise. Nous sommes aussi compétent en technique qu'en management </p>
-        <p>Nous accompagnons les techniciens, les sous-traitants, l'encadrement intérmédiare et les Directions</p>
+        <p style="text-align: justify;>Issue du terrain et du management, nous couvrons toute la hiérarchie de l'entreprise. Nous sommes aussi compétent en technique qu'en management </p>
+        <p style="text-align: justify;>Nous accompagnons les techniciens, les sous-traitants, l'encadrement intérmédiare et les Directions</p>
       </div>
 
 
