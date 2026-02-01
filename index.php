@@ -50,10 +50,15 @@
     <div class="container">
       <img src="/images/maintenance-industrielle-management.jpg" alt="Expert Maintenance"
            style="margin: 0 auto 20px auto; max-width: 280px;">
-      <h1>Management de la Direction Technique - Maintenance</h1> 
-      <span style="font-size: 1rem; font-weight: 700;">_</span> <br>
+      <h1>Management de la Direction Technique + Maintenance</h1> 
+       <br>
       <h1>conseil - formation - expertise</h1>
 
+      <div style="margin-top: 2rem;">
+        <b>A votre service depuis 23 ans</b>
+      </div>
+
+       
       <div class="hero-subtitle">
          <p><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b></p>
          <p>Accompagnement de tous les secteurs d’activité</p>
@@ -65,9 +70,7 @@
         <p>Nous accompagnons les techniciens, les sous-traitants, l'encadrement intérmédiare et les Directions</p>
       </div>
 
-      <div style="margin-top: 2rem;">
-        <b>A votre service depuis 23 ans</b>
-      </div>
+
     </div>
   </section>
 
@@ -128,9 +131,7 @@
                 </ul>
               </details>
 
-              <details class="offer-item">
-                <summary class="offer-summary">Juridique</summary>
-              </details> 
+
 
               <!-- 4 -->
               <details class="offer-item">
@@ -183,7 +184,7 @@
               <details class="offer-item">
                 <summary class="offer-summary">Management de projet</summary>
                 <ul class="offer-list">
-                  <li><a href="/ingexpert/maintenance-management-transition-directeur-technique-industriel.php">Managemt de transition, Conduite du changement &rarr;</a></li>
+                  <li><a href="/ingexpert/maintenance-management-transition-directeur-technique-industriel.php">Management de transition, Conduite du changement &rarr;</a></li>
                   <li>PLM</li>
                   <li>MCO, MRO, Maintien en condition opérationelle</li>
                   <li>Pilotage de la performance</li>
@@ -191,6 +192,11 @@
                 </ul>
               </details>
 
+              <details class="offer-item">
+                <summary class="offer-summary">Juridique</summary>
+              </details> 
+
+               
             </div>
 
 
