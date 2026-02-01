@@ -52,7 +52,7 @@
            style="margin: 0 auto 20px auto; max-width: 280px;">
       <h1>Management de la Direction Technique + Maintenance</h1> 
        <br>
-      <h1>conseil - formation - expertise</h1>
+      <h1>conseil. formation. expertise.</h1>
 
       <div style="margin-top: 2rem;">
         <b>A votre service depuis 23 ans</b>
@@ -60,7 +60,7 @@
 
        
       <div class="hero-subtitle">
-         <p><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b></p>
+         <br><b>Audit, ingénierie, fiabilisation, achats, stock, formation, indicateurs, GMAO...</b>
          <p>Accompagnement de tous les secteurs d’activité</p>
        
       </div>
