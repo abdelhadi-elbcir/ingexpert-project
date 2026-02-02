@@ -74,9 +74,14 @@ a:hover {
 }
 
 .section-activities {
-  padding: 0 0;
   background-color: var(--bg-white);
   padding: 0 var(--spacing-lg);
+}
+
+.section-your-activities {
+  background-color: var(--bg-light-gray);
+  padding: 0 var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
 }
 
 /* .section {

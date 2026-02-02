@@ -74,9 +74,9 @@
     </div>
   </section>
 
-  <!-- Activities Grid -->
-  <section class="section-activities">
-    <div class="container">
+  <!-- your activities -->
+  <section class="section-your-activities">
+      <div class="container">
       <div class="grid">
 
         <!-- Column 2: Offerings/Missions -->
@@ -195,12 +195,18 @@
               <details class="offer-item">
                 <summary class="offer-summary">Juridique</summary>
               </details> 
-
-               
+      
             </div>
-
-
         </div>
+      </div>
+    </div>
+  
+  </section>
+
+  <!-- Activities Grid -->
+  <section class="section-activities">
+    <div class="container">
+      <div class="grid">
       
         <h2 class="text-center" style="color: var(--accent-pink); margin-bottom: var(--spacing-md);">
             Activité de nos clients</h2>
@@ -306,7 +312,7 @@
   <div class="container">
     <div class="mission-header text-center">
       <h2 style="color: var(--accent-pink); margin-bottom: 10px;">Exemple de standard de mission</h2>
-      <p class="mission-lead">
+      <p class="mission-lead" style="margin-bottom: 10px;">
         Nous utilisons des méthodologies éprouvées, claires, structurées et reproductible pour améliorer votre management
       </p>
     </div>
