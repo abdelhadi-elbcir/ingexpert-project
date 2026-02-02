@@ -73,14 +73,14 @@
 
         <li style="margin-top:14px;">
           <span class="footer-label">Email :</span>
-          <a href="mailto:contact@ingexpert.com">contact@ingexpert.com</a>
+          <a href="#" class="email-link" data-email="Y29udGFjdEBpbmdleHBlcnQuY29t">Afficher email</a>
         </li>
 
         <li class="footer-small">
           Contact par mail :
           <a href="/contact.php"><strong>Cliquez ici</strong></a>
           <span style="opacity:.85;">(ou recopiez : </span>
-          <a href="mailto:contact@ingexpert.com">contact@ingexpert.com</a><span style="opacity:.85;">)</span>
+          <a href="#" class="email-link" data-email="Y29udGFjdEBpbmdleHBlcnQuY29t">Afficher email</a><span style="opacity:.85;">)</span>
         </li>
 
       </ul>
@@ -115,3 +115,26 @@
     </div>
   </div>
 </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Decrypt and activate email links
+  const emailLinks = document.querySelectorAll('.email-link');
+  
+  emailLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Decode the email from base64
+      const encoded = this.getAttribute('data-email');
+      const email = atob(encoded);
+      
+      // Set the mailto link
+      this.href = 'mailto:' + email;
+      this.textContent = email;
+      
+      // Optional: Open mail client
+      this.click();
+    });
+  });
+});
+</script>
