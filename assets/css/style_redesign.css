@@ -76,6 +76,7 @@ a:hover {
 .section-activities {
   background-color: var(--bg-white);
   padding: 0 var(--spacing-lg);
+  padding-top: var(--spacing-lg);
 }
 
 .section-your-activities {
