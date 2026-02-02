@@ -674,6 +674,17 @@ a:hover {
   font-size: 1.05rem;
 }
 
+.mission-header-card{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.mission-header-card h3{
+  margin: 0; /* remove default spacing */
+}
+
 .mission-card{
   text-align: left;
   position: relative;

@@ -50,7 +50,7 @@
     <div class="container">
       <img src="/images/maintenance-industrielle-management.jpg" alt="Expert Maintenance"
            style="margin: 0 auto 20px auto; max-width: 280px;">
-      <h1>Management de la Direction Technique + Maintenance</h1> 
+      <h1 style="color: var(--accent-pink);">Management de la Direction Technique + Maintenance</h1> 
        <br>
       <h1>conseil. formation. expertise.</h1>
 
@@ -202,7 +202,7 @@
 
         </div>
       
-        <h2 class="text-center" style="color: var(--primary-blue); margin-bottom: var(--spacing-md);">
+        <h2 class="text-center" style="color: var(--accent-pink); margin-bottom: var(--spacing-md);">
             Activité de nos clients</h2>
 
         <!-- Column 1: Sectors -->
@@ -258,7 +258,7 @@
   <!-- Clients Section -->
   <section class="clients-section section">
     <div class="container">
-      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--accent-yellow);">Ils nous font confiance</h2>
+      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--accent-pink);">Ils nous font confiance</h2>
       <div class="clients-slider" aria-label="Logos clients">
       <div class="clients-track">
         <!-- Logos (set 1) -->
@@ -305,7 +305,7 @@
 <section class="section mission-section">
   <div class="container">
     <div class="mission-header text-center">
-      <h2 style="color: var(--accent-green); margin-bottom: 10px;">Exemple de standard de mission</h2>
+      <h2 style="color: var(--accent-pink); margin-bottom: 10px;">Exemple de standard de mission</h2>
       <p class="mission-lead">
         Nous utilisons des méthodologies éprouvées, claires, structurées et reproductible pour améliorer votre management
       </p>
@@ -313,20 +313,26 @@
 
     <div class="grid grid-3">
       <div class="card mission-card">
-        <div class="mission-step">1</div>
-        <h3>Diagnostiquer</h3>
+        <div class="mission-header-card">
+          <div class="mission-step">1</div>
+          <h3>Diagnostiquer</h3>
+        </div>
         <p class="text-light">Votre constat, Audit, État des lieux, analyse des pratiques, points forts / points à risque.</p>
       </div>
 
       <div class="card mission-card">
-        <div class="mission-step">2</div>
-        <h3>Structurer</h3>
+        <div class="mission-header">
+          <div class="mission-step">2</div>
+          <h3>Structurer</h3>
+        </div>
         <p class="text-light">Processus, amélioration continue, rôles, plan d’actions et priorisation terrain, tableau de bord.</p>
       </div>
 
       <div class="card mission-card">
-        <div class="mission-step">3</div>
-        <h3>Déployer & mesurer</h3>
+        <div class="mission-header">
+          <div class="mission-step">3</div>
+          <h3>Déployer & mesurer</h3>
+        </div>
         <p class="text-light">Mise en œuvre, accompagnement, formation, suivi des gains et amélioration continue.</p>
       </div>
     </div>
@@ -386,7 +392,7 @@
   <!-- Trainings Section -->
   <section class="section-training" style="background-color: var(--bg-white);">
     <div class="container">
-      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--text-light)">Nos formations inter</h2>
+      <h2 class="text-center" style="margin-bottom: var(--spacing-lg); color: var(--accent-pink)">Nos formations inter</h2>
 
       <div class="grid grid-2">
         <div class="card">
@@ -436,7 +442,7 @@
 <section class="section dialogue-section">
   <div class="container">
     <div class="text-center" style="margin-bottom: var(--spacing-lg);">
-      <h2 style="color: var(--text-dark); margin-bottom: 10px;">Dialogue</h2>
+      <h2 style="color: var(--accent-pink); margin-bottom: 10px;">Dialogue</h2>
       <p class="dialogue-lead">Échanger, apprendre, partager des retours terrain.</p>
     </div>
 
@@ -462,7 +468,7 @@
   <!-- Resources & Publications -->
   <section class="section-pubs">
     <div class="container text-center">
-      <h2 style="color: var(--primary-blue); margin-bottom: var(--spacing-lg);">Ressources & Publications</h2>
+      <h2 style="color: var(--accent-pink); margin-bottom: var(--spacing-lg);">Ressources & Publications</h2>
       <div class="grid grid-2">
         <div>
           <a href="/images/management-maintenance-industrielle-conseil-formation.pdf">

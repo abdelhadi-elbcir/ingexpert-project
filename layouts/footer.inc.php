@@ -83,15 +83,8 @@
           <a href="mailto:contact@ingexpert.com">contact@ingexpert.com</a><span style="opacity:.85;">)</span>
         </li>
 
-        <li class="footer-small">
-          <span class="footer-label">Zone :</span> France / International
-        </li>
       </ul>
 
-      <div class="footer-badges">
-        <a class="footer-badge" href="/images/management-maintenance-industrielle-conseil-formation.pdf">Livre blanc</a>
-        <a class="footer-badge" href="/ingexpert/maintenance-pack-formation-management.php">Prochaines formations</a>
-      </div>
     </div>
 
     <!-- Col 4: Newsletter (optional but styled) -->
