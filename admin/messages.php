@@ -76,6 +76,7 @@ function preview_text(string $text, int $max = 160): string {
         <a class="is-active" href="messages.php">
           <span class="nav-dot" aria-hidden="true"></span>Messages
         </a>
+        <a class="is-active" href="trainings.php"><span class="nav-dot" aria-hidden="true" style="background:var(--accent-green); box-shadow:0 0 0 4px rgba(147,194,65,.18)"></span>Formations</a>
         <a href="logout.php">
           <span class="nav-dot" aria-hidden="true" style="background: var(--accent-pink); box-shadow: 0 0 0 4px rgba(255,150,160,.18)"></span>
           Déconnexion
