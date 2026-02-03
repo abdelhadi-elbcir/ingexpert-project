@@ -122,6 +122,15 @@ function preview_text(string $text, int $max = 160): string {
             <div class="card-body">
               <div class="table-wrap">
                 <table class="table">
+                  <colgroup>
+                    <col style="width:70px">
+                    <col style="width:120px">
+                    <col style="width:180px">
+                    <col style="width:280px">
+                    <col style="width:300px">
+                    <col style="width:auto">
+                    <col style="width:120px">
+                  </colgroup>
                   <thead>
                     <tr>
                       <th style="width:70px">ID</th>
