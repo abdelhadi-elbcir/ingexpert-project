@@ -268,41 +268,45 @@ img{max-width:100%;height:auto;display:block}
 
 /* Tables */
 .table-wrap{overflow:auto}
+/* Make table columns stable */
 .table{
-  width:100%;
-  border-collapse:separate;
-  border-spacing:0;
-  min-width:820px;
-}
-.table th, .table td{
-  padding:14px 14px;
-  border-bottom:1px solid #f0f2f7;
-  vertical-align:top;
-  text-align:left;
-  font-size:.95rem;
-}
-.table th{
-  background:#fbfcfe;
-  font-size:.82rem;
-  letter-spacing:.3px;
-  text-transform:uppercase;
-  color:var(--text-muted);
-  font-weight:950;
-  position:sticky;
-  top:0;
-  z-index:1;
-}
-.table tr:hover td{
-  background:#fbfdff;
+  table-layout: fixed;          /* IMPORTANT */
+  width: 100%;
+  min-width: 1100px;            /* enough for all cols */
 }
 
+/* Prevent weird stretching */
+.table th, .table td{
+  overflow: hidden;
+}
+
+/* Keep contact/company blocks compact */
 .kv{
   display:flex;
   flex-direction:column;
   gap:4px;
+  min-width:0;
 }
-.kv strong{font-weight:950}
-.kv .muted{color:var(--text-muted);font-size:.9rem}
+
+/* Don’t let long text push layout */
+.kv strong,
+.kv .muted{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/* The preview cell: allow multi-line clamp */
+.msg-preview{
+  white-space:normal;
+}
+
+/* Actions cell alignment */
+.td-actions{
+  text-align:right;
+  white-space:nowrap;
+}
+
 
 /* Message cell */
 .msg{
