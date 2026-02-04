@@ -367,6 +367,101 @@ img {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  table-layout: auto;
+}
+
+/* Messages table - 7 columns */
+.messages-table {
+  min-width: 1200px;
+}
+
+.messages-table th:nth-child(1),
+.messages-table td:nth-child(1) {
+  width: 60px;
+}
+
+.messages-table th:nth-child(2),
+.messages-table td:nth-child(2) {
+  width: 110px;
+}
+
+.messages-table th:nth-child(3),
+.messages-table td:nth-child(3) {
+  width: 180px;
+}
+
+.messages-table th:nth-child(4),
+.messages-table td:nth-child(4) {
+  width: 220px;
+}
+
+.messages-table th:nth-child(5),
+.messages-table td:nth-child(5) {
+  width: 220px;
+}
+
+.messages-table th:nth-child(6),
+.messages-table td:nth-child(6) {
+  width: auto;
+  min-width: 200px;
+}
+
+.messages-table th:nth-child(7),
+.messages-table td:nth-child(7) {
+  width: 100px;
+  text-align: center;
+}
+
+/* Trainings table - 9 columns */
+.trainings-table {
+  min-width: 1400px;
+}
+
+.trainings-table th:nth-child(1),
+.trainings-table td:nth-child(1) {
+  width: 60px;
+}
+
+.trainings-table th:nth-child(2),
+.trainings-table td:nth-child(2) {
+  width: 80px;
+}
+
+.trainings-table th:nth-child(3),
+.trainings-table td:nth-child(3) {
+  width: 80px;
+}
+
+.trainings-table th:nth-child(4),
+.trainings-table td:nth-child(4) {
+  width: 200px;
+}
+
+.trainings-table th:nth-child(5),
+.trainings-table td:nth-child(5) {
+  width: 180px;
+}
+
+.trainings-table th:nth-child(6),
+.trainings-table td:nth-child(6) {
+  width: auto;
+  min-width: 200px;
+}
+
+.trainings-table th:nth-child(7),
+.trainings-table td:nth-child(7) {
+  width: 180px;
+}
+
+.trainings-table th:nth-child(8),
+.trainings-table td:nth-child(8) {
+  width: 150px;
+}
+
+.trainings-table th:nth-child(9),
+.trainings-table td:nth-child(9) {
+  width: 140px;
+  text-align: center;
 }
 
 /* Table headers */

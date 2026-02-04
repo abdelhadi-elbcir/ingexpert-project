@@ -233,7 +233,7 @@ if (isset($_GET["action"], $_GET["id"]) && $_GET["action"] === "edit" && $editId
 
           <div class="card-body">
             <div class="table-wrap">
-              <table class="table">
+              <table class="table trainings-table">
                 <thead>
                   <tr>
                     <th>ID</th>

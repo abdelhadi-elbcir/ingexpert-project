@@ -103,7 +103,7 @@ function preview_text(string $text, int $max = 160): string
 
             <div class="card-body">
               <div class="table-wrap">
-                <table class="table">
+                <table class="table messages-table">
                   <thead>
                     <tr>
                       <th>ID</th>
