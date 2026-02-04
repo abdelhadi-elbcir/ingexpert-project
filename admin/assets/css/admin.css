@@ -85,6 +85,9 @@ img {
   top: 0;
   height: 100vh;
   padding: 18px 14px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
 }
 
 .admin-brand {
@@ -104,12 +107,14 @@ img {
   place-items: center;
   background: rgba(135, 180, 195, .25);
   border: 1px solid rgba(135, 180, 195, .45);
+  flex-shrink: 0;
 }
 
 .admin-brand h1 {
   font-size: 1.02rem;
   line-height: 1.1;
   letter-spacing: .2px;
+  margin: 0;
 }
 
 .admin-brand small {
@@ -124,6 +129,7 @@ img {
   flex-direction: column;
   gap: 8px;
   padding: 6px 6px 14px;
+  flex: 1;
 }
 
 .admin-nav a {
@@ -137,17 +143,20 @@ img {
   letter-spacing: .2px;
   text-decoration: none;
   border: 1px solid transparent;
+  transition: all 0.2s ease;
 }
 
 .admin-nav a:hover {
   background: #f3f6fb;
   border-color: #edf1f7;
   text-decoration: none;
+  transform: translateX(2px);
 }
 
 .admin-nav a.is-active {
   background: rgba(135, 180, 195, .18);
   border-color: rgba(135, 180, 195, .35);
+  color: var(--primary-blue);
 }
 
 .admin-nav .nav-dot {
@@ -156,6 +165,7 @@ img {
   border-radius: 99px;
   background: var(--accent-yellow);
   box-shadow: 0 0 0 4px rgba(238, 201, 66, .18);
+  flex-shrink: 0;
 }
 
 .admin-meta {
@@ -304,6 +314,20 @@ img {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   overflow: hidden;
+  margin-bottom: 20px;
+  animation: fadeInUp 0.4s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .card-header {
@@ -313,11 +337,13 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  background: linear-gradient(180deg, #fafbfc, #ffffff);
 }
 
 .card-header h3 {
   font-size: 1.05rem;
   color: var(--text-dark);
+  margin: 0;
 }
 
 .card-header .muted {
@@ -327,7 +353,7 @@ img {
 }
 
 .card-body {
-  padding: 0
+  padding: 0;
 }
 
 /* Tables */

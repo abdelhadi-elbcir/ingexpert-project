@@ -67,8 +67,7 @@ function preview_text(string $text, int $max = 160): string
 
 <body>
   <div class="admin-shell">
-
-    <?php include __DIR__ . "/admin/layouts/sidebar.inc.php"; ?>
+    <?php include __DIR__ . "/includes/sidebar.php"; ?>
 
     <main class="admin-main">
       <header class="admin-topbar">
