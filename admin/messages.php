@@ -62,7 +62,7 @@ function preview_text(string $text, int $max = 160): string
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin - Messages</title>
-  <link rel="stylesheet" href="assets/css/admin.css">
+  <link rel="stylesheet" href="assets/css/admin.css?v=<?= time() ?>">
 </head>
 
 <body>
@@ -143,23 +143,35 @@ function preview_text(string $text, int $max = 160): string
                           </span>
                         </td>
 
-                        <td class="kv">
-                          <span class="muted"><?= e($createdAt) ?></span>
-                          <?php if (!empty($m["viewed_at"])): ?>
-                            <span class="muted">Vu: <?= e((string) $m["viewed_at"]) ?></span>
-                          <?php endif; ?>
+                        <td>
+                          <div>
+                            <div class="kv">
+                              <span class="muted"><?= e($createdAt) ?></span>
+                              <?php if (!empty($m["viewed_at"])): ?>
+                                <span class="muted">Vu: <?= e((string) $m["viewed_at"]) ?></span>
+                              <?php endif; ?>
+                            </div>
+                          </div>
                         </td>
 
-                        <td class="kv">
-                          <?php if ($fullName !== ""): ?><strong><?= e($fullName) ?></strong><?php endif; ?>
-                          <?php if ($email !== ""): ?><span class="muted"><?= e($email) ?></span><?php endif; ?>
-                          <?php if ($phone !== ""): ?><span class="muted"><?= e($phone) ?></span><?php endif; ?>
+                        <td>
+                          <div>
+                            <div class="kv">
+                              <?php if ($fullName !== ""): ?><strong><?= e($fullName) ?></strong><?php endif; ?>
+                              <?php if ($email !== ""): ?><span class="muted"><?= e($email) ?></span><?php endif; ?>
+                              <?php if ($phone !== ""): ?><span class="muted"><?= e($phone) ?></span><?php endif; ?>
+                            </div>
+                          </div>
                         </td>
 
-                        <td class="kv">
-                          <?php if ($company !== ""): ?><strong><?= e($company) ?></strong><?php endif; ?>
-                          <?php if ($activity !== ""): ?><span class="muted"><?= e($activity) ?></span><?php endif; ?>
-                          <?php if ($city !== ""): ?><span class="muted"><?= e($city) ?></span><?php endif; ?>
+                        <td>
+                          <div>
+                            <div class="kv">
+                              <?php if ($company !== ""): ?><strong><?= e($company) ?></strong><?php endif; ?>
+                              <?php if ($activity !== ""): ?><span class="muted"><?= e($activity) ?></span><?php endif; ?>
+                              <?php if ($city !== ""): ?><span class="muted"><?= e($city) ?></span><?php endif; ?>
+                            </div>
+                          </div>
                         </td>
 
                         <td>

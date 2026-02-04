@@ -122,7 +122,7 @@ if (isset($_GET["action"], $_GET["id"]) && $_GET["action"] === "edit" && $editId
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin - Formations</title>
-  <link rel="stylesheet" href="assets/css/admin.css">
+  <link rel="stylesheet" href="assets/css/admin.css?v=<?= time() ?>">
 </head>
 
 <body>
@@ -250,16 +250,32 @@ if (isset($_GET["action"], $_GET["id"]) && $_GET["action"] === "edit" && $editId
                 <tbody>
                   <?php foreach ($trainings as $t): ?>
                     <tr>
-                      <td><strong><?= (int) $t["id"] ?></strong></td>
-                      <td><?= ((int) $t["is_active"] === 1) ? "Oui" : "Non" ?></td>
-                      <td><?= (int) $t["sort_order"] ?></td>
-                      <td class="kv"><strong><?= e((string) $t["title"]) ?></strong></td>
-                      <td class="kv"><span class="muted"><?= e((string) $t["duration"]) ?></span></td>
-                      <td class="kv"><span><?= e((string) $t["description"]) ?></span></td>
-                      <td class="kv"><span class="muted"><?= e((string) $t["link_url"]) ?></span></td>
-                      <td class="kv">
-                        <span class="muted">Début: <?= e((string) ($t["start_date"] ?? "")) ?></span>
-                        <span class="muted">Fin: <?= e((string) ($t["end_date"] ?? "")) ?></span>
+                      <td>
+                        <div class="kv"><strong><?= (int) $t["id"] ?></strong></div>
+                      </td>
+                      <td>
+                        <div class="kv"><?= ((int) $t["is_active"] === 1) ? "Oui" : "Non" ?></div>
+                      </td>
+                      <td>
+                        <div class="kv"><?= (int) $t["sort_order"] ?></div>
+                      </td>
+                      <td>
+                        <div class="kv"><strong><?= e((string) $t["title"]) ?></strong></div>
+                      </td>
+                      <td>
+                        <div class="kv"><span class="muted"><?= e((string) $t["duration"]) ?></span></div>
+                      </td>
+                      <td>
+                        <div class="kv"><span><?= e((string) $t["description"]) ?></span></div>
+                      </td>
+                      <td>
+                        <div class="kv"><span class="muted"><?= e((string) $t["link_url"]) ?></span></div>
+                      </td>
+                      <td>
+                        <div class="kv">
+                          <span class="muted">Début: <?= e((string) ($t["start_date"] ?? "")) ?></span>
+                          <span class="muted">Fin: <?= e((string) ($t["end_date"] ?? "")) ?></span>
+                        </div>
                       </td>
                       <td>
                         <div style="display:flex; gap:8px; justify-content:flex-end;">
