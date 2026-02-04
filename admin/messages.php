@@ -7,20 +7,20 @@ require __DIR__ . "/../config.php";
 
 // ---- AJAX: mark as viewed ----
 if ($_SERVER["REQUEST_METHOD"] === "POST" && ($_POST["action"] ?? "") === "mark_viewed") {
-    header("Content-Type: application/json; charset=utf-8");
+  header("Content-Type: application/json; charset=utf-8");
 
-    $id = (int)($_POST["id"] ?? 0);
-    if ($id <= 0) {
-        http_response_code(400);
-        echo json_encode(["ok" => false, "error" => "Invalid id"]);
-        exit;
-    }
-
-    $stmt = $pdo->prepare("UPDATE contact_form SET viewed = 1, viewed_at = NOW() WHERE id = :id");
-    $stmt->execute([":id" => $id]);
-
-    echo json_encode(["ok" => true]);
+  $id = (int) ($_POST["id"] ?? 0);
+  if ($id <= 0) {
+    http_response_code(400);
+    echo json_encode(["ok" => false, "error" => "Invalid id"]);
     exit;
+  }
+
+  $stmt = $pdo->prepare("UPDATE contact_form SET viewed = 1, viewed_at = NOW() WHERE id = :id");
+  $stmt->execute([":id" => $id]);
+
+  echo json_encode(["ok" => true]);
+  exit;
 }
 
 // ---- Read messages ----
@@ -35,59 +35,40 @@ $messages = $stmt->fetchAll(PDO::FETCH_ASSOC);
 // unread count
 $unreadCount = 0;
 foreach ($messages as $m) {
-    if ((int)($m["viewed"] ?? 0) === 0) $unreadCount++;
+  if ((int) ($m["viewed"] ?? 0) === 0)
+    $unreadCount++;
 }
 
-function e(string $v): string { return htmlspecialchars($v, ENT_QUOTES, "UTF-8"); }
+function e(string $v): string
+{
+  return htmlspecialchars($v, ENT_QUOTES, "UTF-8");
+}
 
 // safe preview (strip tags + clamp length)
-function preview_text(string $text, int $max = 160): string {
-    $t = trim(strip_tags($text));
-    if ($t === "") return "";
-    // mb_strimwidth keeps UTF-8 clean
-    return mb_strimwidth($t, 0, $max, "…", "UTF-8");
+function preview_text(string $text, int $max = 160): string
+{
+  $t = trim(strip_tags($text));
+  if ($t === "")
+    return "";
+  // mb_strimwidth keeps UTF-8 clean
+  return mb_strimwidth($t, 0, $max, "…", "UTF-8");
 }
 
 ?>
 <!doctype html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin - Messages</title>
   <link rel="stylesheet" href="assets/css/admin.css">
 </head>
+
 <body>
   <div class="admin-shell">
-    <aside class="admin-sidebar">
-      <div class="admin-brand">
-        <div class="admin-logo" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path fill="#87B4C3" d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm0 5a3 3 0 1 1-3 3 3.003 3.003 0 0 1 3-3Zm0 13.2a8.188 8.188 0 0 1-5.4-2.05 5.55 5.55 0 0 1 10.8 0A8.188 8.188 0 0 1 12 20.2Z"/>
-          </svg>
-        </div>
-        <div>
-          <h1>Ingexpert</h1>
-          <small>Dashboard Admin</small>
-        </div>
-      </div>
 
-      <nav class="admin-nav" aria-label="Navigation admin">
-        <a class="is-active" href="messages.php">
-          <span class="nav-dot" aria-hidden="true"></span>Messages
-        </a>
-        <a class="is-active" href="trainings.php"><span class="nav-dot" aria-hidden="true" style="background:var(--accent-green); box-shadow:0 0 0 4px rgba(147,194,65,.18)"></span>Formations</a>
-        <a href="logout.php">
-          <span class="nav-dot" aria-hidden="true" style="background: var(--accent-pink); box-shadow: 0 0 0 4px rgba(255,150,160,.18)"></span>
-          Déconnexion
-        </a>
-      </nav>
-
-      <div class="admin-meta">
-        <div><strong>Zone privée</strong></div>
-        <div>Dernière mise à jour : <span><?= e(date("Y-m-d")) ?></span></div>
-      </div>
-    </aside>
+    <?php include __DIR__ . "/admin/layouts/sidebar.inc.php"; ?>
 
     <main class="admin-main">
       <header class="admin-topbar">
@@ -102,8 +83,9 @@ function preview_text(string $text, int $max = 160): string {
               <span class="badge-dot" aria-hidden="true"></span><?= count($messages) ?> message(s)
             </span>
             <span class="badge" title="Messages non lus">
-              <span class="badge-dot" aria-hidden="true" style="background: var(--accent-yellow); box-shadow: 0 0 0 4px rgba(238,201,66,.18)"></span>
-              <?= (int)$unreadCount ?> non lu(s)
+              <span class="badge-dot" aria-hidden="true"
+                style="background: var(--accent-yellow); box-shadow: 0 0 0 4px rgba(238,201,66,.18)"></span>
+              <?= (int) $unreadCount ?> non lu(s)
             </span>
             <a class="btn btn-ghost" href="logout.php">Se déconnecter</a>
           </div>
@@ -123,43 +105,34 @@ function preview_text(string $text, int $max = 160): string {
             <div class="card-body">
               <div class="table-wrap">
                 <table class="table">
-                  <colgroup>
-                    <col style="width:70px">
-                    <col style="width:120px">
-                    <col style="width:180px">
-                    <col style="width:280px">
-                    <col style="width:300px">
-                    <col style="width:auto">
-                    <col style="width:120px">
-                  </colgroup>
                   <thead>
                     <tr>
-                      <th style="width:70px">ID</th>
-                      <th style="width:110px">Statut</th>
-                      <th style="width:170px">Date</th>
-                      <th style="width:280px">Contact</th>
-                      <th style="width:300px">Société / Activité / Ville</th>
+                      <th>ID</th>
+                      <th>Statut</th>
+                      <th>Date</th>
+                      <th>Contact</th>
+                      <th>Société / Activité / Ville</th>
                       <th>Aperçu</th>
-                      <th style="width:120px">Actions</th>
+                      <th>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php foreach ($messages as $m): ?>
                       <?php
-                        $id = (int)$m["id"];
-                        $isUnread = ((int)($m["viewed"] ?? 0) === 0);
+                      $id = (int) $m["id"];
+                      $isUnread = ((int) ($m["viewed"] ?? 0) === 0);
 
-                        $fullName = trim((string)($m["full_name"] ?? ""));
-                        $email = trim((string)($m["email"] ?? ""));
-                        $phone = trim((string)($m["phone"] ?? ""));
+                      $fullName = trim((string) ($m["full_name"] ?? ""));
+                      $email = trim((string) ($m["email"] ?? ""));
+                      $phone = trim((string) ($m["phone"] ?? ""));
 
-                        $company = trim((string)($m["company_name"] ?? ""));
-                        $activity = trim((string)($m["activity"] ?? ""));
-                        $city = trim((string)($m["city_postal"] ?? ""));
+                      $company = trim((string) ($m["company_name"] ?? ""));
+                      $activity = trim((string) ($m["activity"] ?? ""));
+                      $city = trim((string) ($m["city_postal"] ?? ""));
 
-                        $question = (string)($m["question"] ?? "");
-                        $preview = preview_text($question, 180);
-                        $createdAt = (string)($m["created_at"] ?? "");
+                      $question = (string) ($m["question"] ?? "");
+                      $preview = preview_text($question, 180);
+                      $createdAt = (string) ($m["created_at"] ?? "");
                       ?>
                       <tr class="<?= $isUnread ? "is-unread" : "" ?>" data-row-id="<?= $id ?>">
                         <td><strong><?= $id ?></strong></td>
@@ -174,7 +147,7 @@ function preview_text(string $text, int $max = 160): string {
                         <td class="kv">
                           <span class="muted"><?= e($createdAt) ?></span>
                           <?php if (!empty($m["viewed_at"])): ?>
-                            <span class="muted">Vu: <?= e((string)$m["viewed_at"]) ?></span>
+                            <span class="muted">Vu: <?= e((string) $m["viewed_at"]) ?></span>
                           <?php endif; ?>
                         </td>
 
@@ -192,24 +165,15 @@ function preview_text(string $text, int $max = 160): string {
 
                         <td>
                           <div class="msg-preview"><?= e($preview !== "" ? $preview : "(vide)") ?></div>
-                          <div class="msg-meta">Longueur: <?= (int)mb_strlen(trim($question), "UTF-8") ?> caractères</div>
+                          <div class="msg-meta">Longueur: <?= (int) mb_strlen(trim($question), "UTF-8") ?> caractères</div>
                         </td>
 
                         <td>
-                          <button
-                            class="btn btn-ghost btn-sm js-view"
-                            type="button"
-                            data-id="<?= $id ?>"
-                            data-created="<?= e($createdAt) ?>"
-                            data-full_name="<?= e($fullName) ?>"
-                            data-email="<?= e($email) ?>"
-                            data-phone="<?= e($phone) ?>"
-                            data-company="<?= e($company) ?>"
-                            data-activity="<?= e($activity) ?>"
-                            data-city="<?= e($city) ?>"
-                            data-question="<?= e($question) ?>"
-                            data-viewed="<?= $isUnread ? "0" : "1" ?>"
-                          >
+                          <button class="btn btn-ghost btn-sm js-view" type="button" data-id="<?= $id ?>"
+                            data-created="<?= e($createdAt) ?>" data-full_name="<?= e($fullName) ?>"
+                            data-email="<?= e($email) ?>" data-phone="<?= e($phone) ?>" data-company="<?= e($company) ?>"
+                            data-activity="<?= e($activity) ?>" data-city="<?= e($city) ?>"
+                            data-question="<?= e($question) ?>" data-viewed="<?= $isUnread ? "0" : "1" ?>">
                             Voir
                           </button>
                         </td>
@@ -271,113 +235,114 @@ function preview_text(string $text, int $max = 160): string {
     </div>
   </dialog>
 
-<script>
-(function(){
-  const modal = document.getElementById("msgModal");
-  const closeBtn = document.getElementById("mClose");
-  const okBtn = document.getElementById("mOk");
-  const markReadBtn = document.getElementById("mMarkRead");
+  <script>
+    (function () {
+      const modal = document.getElementById("msgModal");
+      const closeBtn = document.getElementById("mClose");
+      const okBtn = document.getElementById("mOk");
+      const markReadBtn = document.getElementById("mMarkRead");
 
-  const el = (id) => document.getElementById(id);
+      const el = (id) => document.getElementById(id);
 
-  let currentId = null;
-  let currentViewed = "0";
+      let currentId = null;
+      let currentViewed = "0";
 
-  function setText(id, value){
-    el(id).textContent = value || "";
-  }
+      function setText(id, value) {
+        el(id).textContent = value || "";
+      }
 
-  function statusHTML(viewed){
-    if(viewed === "1"){
-      return `<span class="status read"><span class="dot" aria-hidden="true"></span>Lu</span>`;
-    }
-    return `<span class="status unread"><span class="dot" aria-hidden="true"></span>Non lu</span>`;
-  }
+      function statusHTML(viewed) {
+        if (viewed === "1") {
+          return `<span class="status read"><span class="dot" aria-hidden="true"></span>Lu</span>`;
+        }
+        return `<span class="status unread"><span class="dot" aria-hidden="true"></span>Non lu</span>`;
+      }
 
-  async function markAsViewed(id){
-    const fd = new FormData();
-    fd.append("action", "mark_viewed");
-    fd.append("id", id);
+      async function markAsViewed(id) {
+        const fd = new FormData();
+        fd.append("action", "mark_viewed");
+        fd.append("id", id);
 
-    const res = await fetch("messages.php", { method: "POST", body: fd });
-    const data = await res.json().catch(() => null);
-    if(!res.ok || !data || !data.ok) return false;
+        const res = await fetch("messages.php", { method: "POST", body: fd });
+        const data = await res.json().catch(() => null);
+        if (!res.ok || !data || !data.ok) return false;
 
-    // Update row UI
-    const status = document.querySelector(`[data-status-id="${id}"]`);
-    if(status){
-      status.classList.remove("unread");
-      status.classList.add("read");
-      status.innerHTML = `<span class="dot" aria-hidden="true"></span>Lu`;
-    }
-    const row = document.querySelector(`[data-row-id="${id}"]`);
-    if(row) row.classList.remove("is-unread");
+        // Update row UI
+        const status = document.querySelector(`[data-status-id="${id}"]`);
+        if (status) {
+          status.classList.remove("unread");
+          status.classList.add("read");
+          status.innerHTML = `<span class="dot" aria-hidden="true"></span>Lu`;
+        }
+        const row = document.querySelector(`[data-row-id="${id}"]`);
+        if (row) row.classList.remove("is-unread");
 
-    return true;
-  }
+        return true;
+      }
 
-  document.querySelectorAll(".js-view").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      currentId = btn.dataset.id;
-      currentViewed = btn.dataset.viewed;
+      document.querySelectorAll(".js-view").forEach(btn => {
+        btn.addEventListener("click", async () => {
+          currentId = btn.dataset.id;
+          currentViewed = btn.dataset.viewed;
 
-      setText("mTitle", `Message #${currentId}`);
-      setText("mSub", btn.dataset.created || "");
+          setText("mTitle", `Message #${currentId}`);
+          setText("mSub", btn.dataset.created || "");
 
-      setText("mName", btn.dataset.full_name || "");
-      setText("mEmail", btn.dataset.email || "");
-      setText("mPhone", btn.dataset.phone || "");
+          setText("mName", btn.dataset.full_name || "");
+          setText("mEmail", btn.dataset.email || "");
+          setText("mPhone", btn.dataset.phone || "");
 
-      setText("mCompany", btn.dataset.company || "");
-      setText("mActivity", btn.dataset.activity || "");
-      setText("mCity", btn.dataset.city || "");
+          setText("mCompany", btn.dataset.company || "");
+          setText("mActivity", btn.dataset.activity || "");
+          setText("mCity", btn.dataset.city || "");
 
-      el("mStatus").innerHTML = statusHTML(currentViewed);
-      el("mQuestion").textContent = btn.dataset.question || "";
+          el("mStatus").innerHTML = statusHTML(currentViewed);
+          el("mQuestion").textContent = btn.dataset.question || "";
 
-      // Show/hide "mark as read"
-      markReadBtn.style.display = (currentViewed === "1") ? "none" : "inline-flex";
+          // Show/hide "mark as read"
+          markReadBtn.style.display = (currentViewed === "1") ? "none" : "inline-flex";
 
-      if(typeof modal.showModal === "function") modal.showModal();
-      else modal.setAttribute("open", "open");
+          if (typeof modal.showModal === "function") modal.showModal();
+          else modal.setAttribute("open", "open");
 
-      // Option A (recommended): mark as viewed automatically when opened
-      if(currentViewed === "0"){
+          // Option A (recommended): mark as viewed automatically when opened
+          if (currentViewed === "0") {
+            const ok = await markAsViewed(currentId);
+            if (ok) {
+              currentViewed = "1";
+              btn.dataset.viewed = "1";
+              el("mStatus").innerHTML = statusHTML("1");
+              markReadBtn.style.display = "none";
+            }
+          }
+        });
+      });
+
+      closeBtn.addEventListener("click", () => modal.close());
+      okBtn.addEventListener("click", () => modal.close());
+
+      // Option B: manual mark read (kept, but modal already auto-marks)
+      markReadBtn.addEventListener("click", async () => {
+        if (!currentId) return;
         const ok = await markAsViewed(currentId);
-        if(ok){
+        if (ok) {
           currentViewed = "1";
-          btn.dataset.viewed = "1";
           el("mStatus").innerHTML = statusHTML("1");
           markReadBtn.style.display = "none";
         }
-      }
-    });
-  });
+      });
 
-  closeBtn.addEventListener("click", () => modal.close());
-  okBtn.addEventListener("click", () => modal.close());
-
-  // Option B: manual mark read (kept, but modal already auto-marks)
-  markReadBtn.addEventListener("click", async () => {
-    if(!currentId) return;
-    const ok = await markAsViewed(currentId);
-    if(ok){
-      currentViewed = "1";
-      el("mStatus").innerHTML = statusHTML("1");
-      markReadBtn.style.display = "none";
-    }
-  });
-
-  // Close when clicking outside content
-  modal.addEventListener("click", (e) => {
-    const rect = modal.getBoundingClientRect();
-    const inDialog =
-      e.clientX >= rect.left && e.clientX <= rect.right &&
-      e.clientY >= rect.top && e.clientY <= rect.bottom;
-    if(!inDialog) modal.close();
-  });
-})();
-</script>
+      // Close when clicking outside content
+      modal.addEventListener("click", (e) => {
+        const rect = modal.getBoundingClientRect();
+        const inDialog =
+          e.clientX >= rect.left && e.clientX <= rect.right &&
+          e.clientY >= rect.top && e.clientY <= rect.bottom;
+        if (!inDialog) modal.close();
+      });
+    })();
+  </script>
 
 </body>
+
 </html>
