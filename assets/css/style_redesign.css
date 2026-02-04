@@ -720,6 +720,8 @@ a:hover {
 ========================= */
 .dialogue-section{
   background: var(--bg-light-gray);
+  padding-bottom: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
 }
 
 .dialogue-lead{
